@@ -23,79 +23,11 @@ jobs:
         run: |
           set -euo pipefail
 
-          curl -sf https://controlplane.tailscale.com/derpmap/default -o derpmap.json
+          curl --config fetch-derpmap.curlrc
 
-          # Clean old generated files so removed regions don't linger
-          rm -f tailscale.*.txt
+          jq --from-file derpmap-to-lsrules.jq derpmap.json > derpmap.lsrules
 
-          python3 <<'PYEOF'
-          import json
-          import re
-
-          def slugify(name):
-              """Convert region name to lowercase slug: 'São Paulo' -> 'sao-paulo'"""
-              import unicodedata
-              name = unicodedata.normalize("NFKD", name)
-              name = name.encode("ascii", "ignore").decode("ascii")
-              name = re.sub(r"[^a-zA-Z0-9]+", "-", name).strip("-").lower()
-              return name
-
-          with open("derpmap.json") as f:
-              data = json.load(f)
-
-          all_ipv4 = []
-          all_ipv6 = []
-          regions = {}
-
-          for region_id, region in sorted(data["Regions"].items(), key=lambda x: int(x[0])):
-              rid = int(region_id)
-              code = region.get("RegionCode", "")
-              name = region.get("RegionName", "")
-              regions[rid] = {"code": code, "name": name, "ipv4": [], "ipv6": []}
-
-              for node in region.get("Nodes", []):
-                  ipv4 = node.get("IPv4", "")
-                  ipv6 = node.get("IPv6", "")
-                  if ipv4:
-                      all_ipv4.append(ipv4)
-                      regions[rid]["ipv4"].append(ipv4)
-                  if ipv6:
-                      all_ipv6.append(ipv6)
-                      regions[rid]["ipv6"].append(ipv6)
-
-          # --- All IPs (IPv4 + IPv6) ---
-          all_ips = sorted(all_ipv4) + sorted(all_ipv6)
-          with open("tailscale.all.txt", "w") as f:
-              f.write("\n".join(all_ips) + "\n")
-
-          # --- All IPv4 ---
-          with open("tailscale.all-ipv4.txt", "w") as f:
-              f.write("\n".join(sorted(all_ipv4)) + "\n")
-
-          # --- All IPv6 ---
-          with open("tailscale.all-ipv6.txt", "w") as f:
-              f.write("\n".join(sorted(all_ipv6)) + "\n")
-
-          # --- Per-region files (by ID and by name) ---
-          for rid in sorted(regions.keys()):
-              r = regions[rid]
-              ips = sorted(r["ipv4"]) + sorted(r["ipv6"])
-              header = f"# Region {rid}: {r['name']} ({r['code']})\n"
-
-              # By region ID: tailscale.region.13.txt
-              with open(f"tailscale.region.{rid}.txt", "w") as f:
-                  f.write(header)
-                  f.write("\n".join(ips) + "\n")
-
-              # By region name: tailscale.region.denver.txt
-              slug = slugify(r["name"])
-              with open(f"tailscale.region.{slug}.txt", "w") as f:
-                  f.write(header)
-                  f.write("\n".join(ips) + "\n")
-
-          PYEOF
-
-          rm -f derpmap.json
+          #rm -f derpmap.json
 
       - name: Commit and push (rolling keepalive if unchanged)
         run: |
@@ -107,7 +39,7 @@ jobs:
 
           if ! git diff --cached --quiet; then
             # DERP IPs changed -- record a real commit and push normally.
-            git commit -m "Tailscale IPs as of ${DATE}"
+            git commit -m ".lsrules for DERP servers as of ${DATE}"
             git push
             exit 0
           fi

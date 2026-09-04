@@ -1,0 +1,4 @@
+silent
+fail
+url = "https://controlplane.tailscale.com/derpmap/default"
+output = "derpmap.json"
