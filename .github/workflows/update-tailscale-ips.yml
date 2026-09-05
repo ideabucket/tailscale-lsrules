@@ -27,7 +27,7 @@ jobs:
 
           jq --from-file derpmap-to-lsrules.jq derpmap.json > derpmap.lsrules
 
-          #rm -f derpmap.json
+          rm -f derpmap.json
 
       - name: Commit and push (rolling keepalive if unchanged)
         run: |
