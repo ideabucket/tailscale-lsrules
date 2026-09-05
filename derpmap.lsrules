@@ -1,6 +1,6 @@
 {
   "name": "Tailscale DERP servers",
-  "description": "Allows outgoing HTTPS and STUN to every node in the Tailscale DERP map, plus HTTP on port 80 for nodes advertising CanPort80. One rule per port per region, addressed by IP literal. Generated from https://login.tailscale.com/derpmap/default",
+  "description": "Allows outgoing HTTPS and STUN to every node in the Tailscale DERP map, plus HTTP on port 80 for nodes advertising CanPort80. One rule per port per region, addressed by IP literal. STUN is constrained to identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension. Generated from https://login.tailscale.com/derpmap/default",
   "rules": [
     {
       "action": "allow",
@@ -22,7 +22,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -49,7 +49,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -76,7 +76,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -103,7 +103,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -130,7 +130,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -157,7 +157,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -184,7 +184,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -211,7 +211,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -238,7 +238,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -265,7 +265,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -292,7 +292,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -319,7 +319,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -346,7 +346,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -373,7 +373,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -400,7 +400,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -427,7 +427,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -454,7 +454,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -481,7 +481,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -508,7 +508,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -535,7 +535,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -562,7 +562,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -589,7 +589,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -616,7 +616,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -643,7 +643,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -670,7 +670,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -697,7 +697,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -724,7 +724,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
@@ -751,7 +751,7 @@
     },
     {
       "action": "allow",
-      "process": "any",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
