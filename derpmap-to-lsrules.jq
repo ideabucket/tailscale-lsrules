@@ -17,9 +17,13 @@
 # comma-separated list and generates one rule per identity.
 #
 # A parallel set of `"process": "any"` + `"via": <code ID>` rules is also
-# emitted. --arg via_scope selects which groups get them: "all" (default),
-# "stun", or "none". --arg via_processes overrides the identities used,
-# taking a comma-separated list like --arg stun_processes.
+# emitted. --arg via_scope selects which groups get them, as a comma-separated
+# list of service tags -- "derp-443", "derp-80", "stun" -- or the keywords
+# "all" (the default) and "none". For example:
+#     --arg via_scope stun,derp-80
+# "none" wins over every other value; "all" wins over individual tags.
+# --arg via_processes overrides the identities used, taking a comma-separated
+# list like --arg stun_processes.
 
 # DERPNode.DERPPort: "If zero, 443 is used."
 # DERPNode.STUNPort: "Zero means 3478. To disable STUN on this node, use -1."
@@ -76,6 +80,16 @@ def split_arg:
   | map(sub("^\\s+"; "") | sub("\\s+$"; ""))
   | map(select(length > 0));
 
+# Whether the current rule group is in scope for `via` rules. Input is the
+# group (an array of service entries); $scope is the parsed --arg via_scope.
+# Unrecognised tags simply match nothing.
+def via_wanted($scope):
+  (map(.svc) | unique) as $svcs
+  | if ($scope | index("none")) then false
+    elif ($scope | index("all")) then true
+    else ([ $scope[] | select($svcs | index(.)) ] | length) > 0
+    end;
+
 ($ARGS.named.process // "any") as $process
 | (if (($ARGS.named.stun_processes // "") | length) == 0
    then tailscale_code_ids
@@ -85,7 +99,8 @@ def split_arg:
    then tailscale_code_ids
    else ($ARGS.named.via_processes | split_arg)
    end) as $via_processes
-| ($ARGS.named.via_scope // "all") as $via_scope
+| ((($ARGS.named.via_scope // "all") | split_arg)
+   | if length == 0 then ["all"] else . end) as $via_scope
 | ($ARGS.named.name // "Tailscale DERP servers") as $groupname
 | {
     name: $groupname,
@@ -119,8 +134,7 @@ def split_arg:
                   ports: ($first.port | tostring),
                   "remote-addresses": $remote_str,
                   notes: "\($labels): \($where)" } ),
-            ( if ($via_scope == "all")
-                 or ($via_scope == "stun" and ((map(.svc) | index("stun")) != null))
+            ( if via_wanted($via_scope)
               then ( $via_processes[]
                      | { action: "allow",
                          process: "any",
@@ -129,7 +143,7 @@ def split_arg:
                          protocol: $first.protocol,
                          ports: ($first.port | tostring),
                          "remote-addresses": $remote_str,
-                         notes: "\($labels), any process via \(.): \($where)" } )
+                         notes: "\($labels): \($where)" } )
               else empty
               end ) )
       ]
