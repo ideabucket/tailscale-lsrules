@@ -15,6 +15,15 @@
 #
 # --arg stun_processes overrides the STUN identities; it takes a
 # comma-separated list and generates one rule per identity.
+#
+# A parallel set of `"process": "any"` + `"via": <code ID>` rules is also
+# emitted. --arg via_scope selects which groups get them, as a comma-separated
+# list of service tags -- "derp-443", "derp-80", "stun" -- or the keywords
+# "all" (the default) and "none". For example:
+#     --arg via_scope stun,derp-80
+# "none" wins over every other value; "all" wins over individual tags.
+# --arg via_processes overrides the identities used, taking a comma-separated
+# list like --arg stun_processes.
 
 # DERPNode.DERPPort: "If zero, 443 is used."
 # DERPNode.STUNPort: "Zero means 3478. To disable STUN on this node, use -1."
@@ -56,6 +65,7 @@ def services:
 # Code IDs for the Tailscale apps, both Mac App Store and direct .pkg versions.
 # These allow matching on the process regardless of path -- see:
 # https://help.obdev.at/littlesnitch6/adv-lsrules-file-format#IDF
+
 def tailscale_code_ids:
   [ "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
     "identifier.W5364U7YZB/io.tailscale.ipn.macos",
@@ -70,11 +80,27 @@ def split_arg:
   | map(sub("^\\s+"; "") | sub("\\s+$"; ""))
   | map(select(length > 0));
 
+# Whether the current rule group is in scope for `via` rules. Input is the
+# group (an array of service entries); $scope is the parsed --arg via_scope.
+# Unrecognised tags simply match nothing.
+def via_wanted($scope):
+  (map(.svc) | unique) as $svcs
+  | if ($scope | index("none")) then false
+    elif ($scope | index("all")) then true
+    else ([ $scope[] | select($svcs | index(.)) ] | length) > 0
+    end;
+
 ($ARGS.named.process // "any") as $process
 | (if (($ARGS.named.stun_processes // "") | length) == 0
    then tailscale_code_ids
    else ($ARGS.named.stun_processes | split_arg)
    end) as $stun_processes
+| (if (($ARGS.named.via_processes // "") | length) == 0
+   then tailscale_code_ids
+   else ($ARGS.named.via_processes | split_arg)
+   end) as $via_processes
+| ((($ARGS.named.via_scope // "all") | split_arg)
+   | if length == 0 then ["all"] else . end) as $via_scope
 | ($ARGS.named.name // "Tailscale DERP servers") as $groupname
 | {
     name: $groupname,
@@ -98,15 +124,27 @@ def split_arg:
         | (map(.label) | unique | join(" / ")) as $labels
         | (if (map(.svc) | index("stun")) then $stun_processes else [$process] end) as $procs
         | .[0] as $first
-        | $procs[]
-        | {
-            action: "allow",
-            process: .,
-            direction: "outgoing",
-            protocol: $first.protocol,
-            ports: ($first.port | tostring),
-            "remote-addresses": ($remotes | join(",")),
-            notes: "\($labels): region \($rid) \($region.value.RegionCode // "?") / \($region.value.RegionName // "?"), \($remotes | length) address(es)"
-          }
+        | ($remotes | join(",")) as $remote_str
+        | "region \($rid) \($region.value.RegionCode // "?") / \($region.value.RegionName // "?"), \($remotes | length) address(es)" as $where
+        | ( ( $procs[]
+              | { action: "allow",
+                  process: .,
+                  direction: "outgoing",
+                  protocol: $first.protocol,
+                  ports: ($first.port | tostring),
+                  "remote-addresses": $remote_str,
+                  notes: "\($labels): \($where)" } ),
+            ( if via_wanted($via_scope)
+              then ( $via_processes[]
+                     | { action: "allow",
+                         process: "any",
+                         via: .,
+                         direction: "outgoing",
+                         protocol: $first.protocol,
+                         ports: ($first.port | tostring),
+                         "remote-addresses": $remote_str,
+                         notes: "\($labels): \($where)" } )
+              else empty
+              end ) )
       ]
   }

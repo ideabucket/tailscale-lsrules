@@ -14,11 +14,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "199.38.181.103,199.38.181.104,199.38.181.93,209.177.145.120,2607:f740:f::3eb,2607:f740:f::afd,2607:f740:f::bc,2607:f740:f::e19",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 1 nyc / New York City, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "199.38.181.103,199.38.181.104,199.38.181.93,209.177.145.120,2607:f740:f::3eb,2607:f740:f::afd,2607:f740:f::bc,2607:f740:f::e19",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 1 nyc / New York City, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "199.38.181.103,199.38.181.104,199.38.181.93,209.177.145.120,2607:f740:f::3eb,2607:f740:f::afd,2607:f740:f::bc,2607:f740:f::e19",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 1 nyc / New York City, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "199.38.181.103,199.38.181.104,199.38.181.93,209.177.145.120,2607:f740:f::3eb,2607:f740:f::afd,2607:f740:f::bc,2607:f740:f::e19",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 1 nyc / New York City, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "199.38.181.103,199.38.181.104,199.38.181.93,209.177.145.120,2607:f740:f::3eb,2607:f740:f::afd,2607:f740:f::bc,2607:f740:f::e19",
       "notes": "DERP over port 443: region 1 nyc / New York City, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "199.38.181.103,199.38.181.104,199.38.181.93,209.177.145.120,2607:f740:f::3eb,2607:f740:f::afd,2607:f740:f::bc,2607:f740:f::e19",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 1 nyc / New York City, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "199.38.181.103,199.38.181.104,199.38.181.93,209.177.145.120,2607:f740:f::3eb,2607:f740:f::afd,2607:f740:f::bc,2607:f740:f::e19",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 1 nyc / New York City, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "199.38.181.103,199.38.181.104,199.38.181.93,209.177.145.120,2607:f740:f::3eb,2607:f740:f::afd,2607:f740:f::bc,2607:f740:f::e19",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 1 nyc / New York City, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "199.38.181.103,199.38.181.104,199.38.181.93,209.177.145.120,2607:f740:f::3eb,2607:f740:f::afd,2607:f740:f::bc,2607:f740:f::e19",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 1 nyc / New York City, 8 address(es)"
     },
     {
       "action": "allow",
@@ -55,6 +135,46 @@
       "ports": "3478",
       "remote-addresses": "199.38.181.103,199.38.181.104,199.38.181.93,209.177.145.120,2607:f740:f::3eb,2607:f740:f::afd,2607:f740:f::bc,2607:f740:f::e19",
       "notes": "STUN: region 1 nyc / New York City, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "199.38.181.103,199.38.181.104,199.38.181.93,209.177.145.120,2607:f740:f::3eb,2607:f740:f::afd,2607:f740:f::bc,2607:f740:f::e19",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 1 nyc / New York City, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "199.38.181.103,199.38.181.104,199.38.181.93,209.177.145.120,2607:f740:f::3eb,2607:f740:f::afd,2607:f740:f::bc,2607:f740:f::e19",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 1 nyc / New York City, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "199.38.181.103,199.38.181.104,199.38.181.93,209.177.145.120,2607:f740:f::3eb,2607:f740:f::afd,2607:f740:f::bc,2607:f740:f::e19",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 1 nyc / New York City, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "199.38.181.103,199.38.181.104,199.38.181.93,209.177.145.120,2607:f740:f::3eb,2607:f740:f::afd,2607:f740:f::bc,2607:f740:f::e19",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 1 nyc / New York City, 8 address(es)"
     },
     {
       "action": "allow",
@@ -68,11 +188,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.252.134,192.73.252.65,208.111.34.178,2607:f740:0:3f::287,2607:f740:0:3f::44c,2607:f740:0:3f::f4",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 2 sfo / San Francisco, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.252.134,192.73.252.65,208.111.34.178,2607:f740:0:3f::287,2607:f740:0:3f::44c,2607:f740:0:3f::f4",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 2 sfo / San Francisco, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.252.134,192.73.252.65,208.111.34.178,2607:f740:0:3f::287,2607:f740:0:3f::44c,2607:f740:0:3f::f4",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 2 sfo / San Francisco, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.252.134,192.73.252.65,208.111.34.178,2607:f740:0:3f::287,2607:f740:0:3f::44c,2607:f740:0:3f::f4",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 2 sfo / San Francisco, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "192.73.252.134,192.73.252.65,208.111.34.178,2607:f740:0:3f::287,2607:f740:0:3f::44c,2607:f740:0:3f::f4",
       "notes": "DERP over port 443: region 2 sfo / San Francisco, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.252.134,192.73.252.65,208.111.34.178,2607:f740:0:3f::287,2607:f740:0:3f::44c,2607:f740:0:3f::f4",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 2 sfo / San Francisco, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.252.134,192.73.252.65,208.111.34.178,2607:f740:0:3f::287,2607:f740:0:3f::44c,2607:f740:0:3f::f4",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 2 sfo / San Francisco, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.252.134,192.73.252.65,208.111.34.178,2607:f740:0:3f::287,2607:f740:0:3f::44c,2607:f740:0:3f::f4",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 2 sfo / San Francisco, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.252.134,192.73.252.65,208.111.34.178,2607:f740:0:3f::287,2607:f740:0:3f::44c,2607:f740:0:3f::f4",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 2 sfo / San Francisco, 6 address(es)"
     },
     {
       "action": "allow",
@@ -109,6 +309,46 @@
       "ports": "3478",
       "remote-addresses": "192.73.252.134,192.73.252.65,208.111.34.178,2607:f740:0:3f::287,2607:f740:0:3f::44c,2607:f740:0:3f::f4",
       "notes": "STUN: region 2 sfo / San Francisco, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.252.134,192.73.252.65,208.111.34.178,2607:f740:0:3f::287,2607:f740:0:3f::44c,2607:f740:0:3f::f4",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 2 sfo / San Francisco, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.252.134,192.73.252.65,208.111.34.178,2607:f740:0:3f::287,2607:f740:0:3f::44c,2607:f740:0:3f::f4",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 2 sfo / San Francisco, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.252.134,192.73.252.65,208.111.34.178,2607:f740:0:3f::287,2607:f740:0:3f::44c,2607:f740:0:3f::f4",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 2 sfo / San Francisco, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.252.134,192.73.252.65,208.111.34.178,2607:f740:0:3f::287,2607:f740:0:3f::44c,2607:f740:0:3f::f4",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 2 sfo / San Francisco, 6 address(es)"
     },
     {
       "action": "allow",
@@ -122,11 +362,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "172.237.66.30,172.237.72.43,172.237.72.79,172.237.72.8,2600:3c15::2000:3dff:fe44:50aa,2600:3c15::2000:53ff:fe48:a668,2600:3c15::2000:6cff:fee4:d799,2600:3c15::2000:adff:fe08:6fab",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 3 sin / Singapore, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "172.237.66.30,172.237.72.43,172.237.72.79,172.237.72.8,2600:3c15::2000:3dff:fe44:50aa,2600:3c15::2000:53ff:fe48:a668,2600:3c15::2000:6cff:fee4:d799,2600:3c15::2000:adff:fe08:6fab",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 3 sin / Singapore, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "172.237.66.30,172.237.72.43,172.237.72.79,172.237.72.8,2600:3c15::2000:3dff:fe44:50aa,2600:3c15::2000:53ff:fe48:a668,2600:3c15::2000:6cff:fee4:d799,2600:3c15::2000:adff:fe08:6fab",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 3 sin / Singapore, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "172.237.66.30,172.237.72.43,172.237.72.79,172.237.72.8,2600:3c15::2000:3dff:fe44:50aa,2600:3c15::2000:53ff:fe48:a668,2600:3c15::2000:6cff:fee4:d799,2600:3c15::2000:adff:fe08:6fab",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 3 sin / Singapore, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "172.237.66.30,172.237.72.43,172.237.72.79,172.237.72.8,2600:3c15::2000:3dff:fe44:50aa,2600:3c15::2000:53ff:fe48:a668,2600:3c15::2000:6cff:fee4:d799,2600:3c15::2000:adff:fe08:6fab",
       "notes": "DERP over port 443: region 3 sin / Singapore, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "172.237.66.30,172.237.72.43,172.237.72.79,172.237.72.8,2600:3c15::2000:3dff:fe44:50aa,2600:3c15::2000:53ff:fe48:a668,2600:3c15::2000:6cff:fee4:d799,2600:3c15::2000:adff:fe08:6fab",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 3 sin / Singapore, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "172.237.66.30,172.237.72.43,172.237.72.79,172.237.72.8,2600:3c15::2000:3dff:fe44:50aa,2600:3c15::2000:53ff:fe48:a668,2600:3c15::2000:6cff:fee4:d799,2600:3c15::2000:adff:fe08:6fab",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 3 sin / Singapore, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "172.237.66.30,172.237.72.43,172.237.72.79,172.237.72.8,2600:3c15::2000:3dff:fe44:50aa,2600:3c15::2000:53ff:fe48:a668,2600:3c15::2000:6cff:fee4:d799,2600:3c15::2000:adff:fe08:6fab",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 3 sin / Singapore, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "172.237.66.30,172.237.72.43,172.237.72.79,172.237.72.8,2600:3c15::2000:3dff:fe44:50aa,2600:3c15::2000:53ff:fe48:a668,2600:3c15::2000:6cff:fee4:d799,2600:3c15::2000:adff:fe08:6fab",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 3 sin / Singapore, 8 address(es)"
     },
     {
       "action": "allow",
@@ -163,6 +483,46 @@
       "ports": "3478",
       "remote-addresses": "172.237.66.30,172.237.72.43,172.237.72.79,172.237.72.8,2600:3c15::2000:3dff:fe44:50aa,2600:3c15::2000:53ff:fe48:a668,2600:3c15::2000:6cff:fee4:d799,2600:3c15::2000:adff:fe08:6fab",
       "notes": "STUN: region 3 sin / Singapore, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "172.237.66.30,172.237.72.43,172.237.72.79,172.237.72.8,2600:3c15::2000:3dff:fe44:50aa,2600:3c15::2000:53ff:fe48:a668,2600:3c15::2000:6cff:fee4:d799,2600:3c15::2000:adff:fe08:6fab",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 3 sin / Singapore, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "172.237.66.30,172.237.72.43,172.237.72.79,172.237.72.8,2600:3c15::2000:3dff:fe44:50aa,2600:3c15::2000:53ff:fe48:a668,2600:3c15::2000:6cff:fee4:d799,2600:3c15::2000:adff:fe08:6fab",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 3 sin / Singapore, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "172.237.66.30,172.237.72.43,172.237.72.79,172.237.72.8,2600:3c15::2000:3dff:fe44:50aa,2600:3c15::2000:53ff:fe48:a668,2600:3c15::2000:6cff:fee4:d799,2600:3c15::2000:adff:fe08:6fab",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 3 sin / Singapore, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "172.237.66.30,172.237.72.43,172.237.72.79,172.237.72.8,2600:3c15::2000:3dff:fe44:50aa,2600:3c15::2000:53ff:fe48:a668,2600:3c15::2000:6cff:fee4:d799,2600:3c15::2000:adff:fe08:6fab",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 3 sin / Singapore, 8 address(es)"
     },
     {
       "action": "allow",
@@ -176,11 +536,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "185.40.234.113,185.40.234.176,185.40.234.219,185.40.234.53,185.40.234.77,2a00:dd80:20::8a6,2a00:dd80:20::8f,2a00:dd80:20::a25,2a00:dd80:20::bcf,2a00:dd80:20::e67",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 4 fra / Frankfurt, 10 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "185.40.234.113,185.40.234.176,185.40.234.219,185.40.234.53,185.40.234.77,2a00:dd80:20::8a6,2a00:dd80:20::8f,2a00:dd80:20::a25,2a00:dd80:20::bcf,2a00:dd80:20::e67",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 4 fra / Frankfurt, 10 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "185.40.234.113,185.40.234.176,185.40.234.219,185.40.234.53,185.40.234.77,2a00:dd80:20::8a6,2a00:dd80:20::8f,2a00:dd80:20::a25,2a00:dd80:20::bcf,2a00:dd80:20::e67",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 4 fra / Frankfurt, 10 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "185.40.234.113,185.40.234.176,185.40.234.219,185.40.234.53,185.40.234.77,2a00:dd80:20::8a6,2a00:dd80:20::8f,2a00:dd80:20::a25,2a00:dd80:20::bcf,2a00:dd80:20::e67",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 4 fra / Frankfurt, 10 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "185.40.234.113,185.40.234.176,185.40.234.219,185.40.234.53,185.40.234.77,2a00:dd80:20::8a6,2a00:dd80:20::8f,2a00:dd80:20::a25,2a00:dd80:20::bcf,2a00:dd80:20::e67",
       "notes": "DERP over port 443: region 4 fra / Frankfurt, 10 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "185.40.234.113,185.40.234.176,185.40.234.219,185.40.234.53,185.40.234.77,2a00:dd80:20::8a6,2a00:dd80:20::8f,2a00:dd80:20::a25,2a00:dd80:20::bcf,2a00:dd80:20::e67",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 4 fra / Frankfurt, 10 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "185.40.234.113,185.40.234.176,185.40.234.219,185.40.234.53,185.40.234.77,2a00:dd80:20::8a6,2a00:dd80:20::8f,2a00:dd80:20::a25,2a00:dd80:20::bcf,2a00:dd80:20::e67",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 4 fra / Frankfurt, 10 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "185.40.234.113,185.40.234.176,185.40.234.219,185.40.234.53,185.40.234.77,2a00:dd80:20::8a6,2a00:dd80:20::8f,2a00:dd80:20::a25,2a00:dd80:20::bcf,2a00:dd80:20::e67",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 4 fra / Frankfurt, 10 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "185.40.234.113,185.40.234.176,185.40.234.219,185.40.234.53,185.40.234.77,2a00:dd80:20::8a6,2a00:dd80:20::8f,2a00:dd80:20::a25,2a00:dd80:20::bcf,2a00:dd80:20::e67",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 4 fra / Frankfurt, 10 address(es)"
     },
     {
       "action": "allow",
@@ -217,6 +657,46 @@
       "ports": "3478",
       "remote-addresses": "185.40.234.113,185.40.234.176,185.40.234.219,185.40.234.53,185.40.234.77,2a00:dd80:20::8a6,2a00:dd80:20::8f,2a00:dd80:20::a25,2a00:dd80:20::bcf,2a00:dd80:20::e67",
       "notes": "STUN: region 4 fra / Frankfurt, 10 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "185.40.234.113,185.40.234.176,185.40.234.219,185.40.234.53,185.40.234.77,2a00:dd80:20::8a6,2a00:dd80:20::8f,2a00:dd80:20::a25,2a00:dd80:20::bcf,2a00:dd80:20::e67",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 4 fra / Frankfurt, 10 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "185.40.234.113,185.40.234.176,185.40.234.219,185.40.234.53,185.40.234.77,2a00:dd80:20::8a6,2a00:dd80:20::8f,2a00:dd80:20::a25,2a00:dd80:20::bcf,2a00:dd80:20::e67",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 4 fra / Frankfurt, 10 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "185.40.234.113,185.40.234.176,185.40.234.219,185.40.234.53,185.40.234.77,2a00:dd80:20::8a6,2a00:dd80:20::8f,2a00:dd80:20::a25,2a00:dd80:20::bcf,2a00:dd80:20::e67",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 4 fra / Frankfurt, 10 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "185.40.234.113,185.40.234.176,185.40.234.219,185.40.234.53,185.40.234.77,2a00:dd80:20::8a6,2a00:dd80:20::8f,2a00:dd80:20::a25,2a00:dd80:20::bcf,2a00:dd80:20::e67",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 4 fra / Frankfurt, 10 address(es)"
     },
     {
       "action": "allow",
@@ -230,11 +710,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "172.105.166.103,172.105.169.57,172.105.179.230,2400:8907::2000:2fff:fea7:57f4,2400:8907::2000:ccff:fe1f:80da,2400:8907::2000:ceff:fe8d:4f4e",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 5 syd / Sydney, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "172.105.166.103,172.105.169.57,172.105.179.230,2400:8907::2000:2fff:fea7:57f4,2400:8907::2000:ccff:fe1f:80da,2400:8907::2000:ceff:fe8d:4f4e",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 5 syd / Sydney, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "172.105.166.103,172.105.169.57,172.105.179.230,2400:8907::2000:2fff:fea7:57f4,2400:8907::2000:ccff:fe1f:80da,2400:8907::2000:ceff:fe8d:4f4e",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 5 syd / Sydney, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "172.105.166.103,172.105.169.57,172.105.179.230,2400:8907::2000:2fff:fea7:57f4,2400:8907::2000:ccff:fe1f:80da,2400:8907::2000:ceff:fe8d:4f4e",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 5 syd / Sydney, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "172.105.166.103,172.105.169.57,172.105.179.230,2400:8907::2000:2fff:fea7:57f4,2400:8907::2000:ccff:fe1f:80da,2400:8907::2000:ceff:fe8d:4f4e",
       "notes": "DERP over port 443: region 5 syd / Sydney, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "172.105.166.103,172.105.169.57,172.105.179.230,2400:8907::2000:2fff:fea7:57f4,2400:8907::2000:ccff:fe1f:80da,2400:8907::2000:ceff:fe8d:4f4e",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 5 syd / Sydney, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "172.105.166.103,172.105.169.57,172.105.179.230,2400:8907::2000:2fff:fea7:57f4,2400:8907::2000:ccff:fe1f:80da,2400:8907::2000:ceff:fe8d:4f4e",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 5 syd / Sydney, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "172.105.166.103,172.105.169.57,172.105.179.230,2400:8907::2000:2fff:fea7:57f4,2400:8907::2000:ccff:fe1f:80da,2400:8907::2000:ceff:fe8d:4f4e",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 5 syd / Sydney, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "172.105.166.103,172.105.169.57,172.105.179.230,2400:8907::2000:2fff:fea7:57f4,2400:8907::2000:ccff:fe1f:80da,2400:8907::2000:ceff:fe8d:4f4e",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 5 syd / Sydney, 6 address(es)"
     },
     {
       "action": "allow",
@@ -271,6 +831,46 @@
       "ports": "3478",
       "remote-addresses": "172.105.166.103,172.105.169.57,172.105.179.230,2400:8907::2000:2fff:fea7:57f4,2400:8907::2000:ccff:fe1f:80da,2400:8907::2000:ceff:fe8d:4f4e",
       "notes": "STUN: region 5 syd / Sydney, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "172.105.166.103,172.105.169.57,172.105.179.230,2400:8907::2000:2fff:fea7:57f4,2400:8907::2000:ccff:fe1f:80da,2400:8907::2000:ceff:fe8d:4f4e",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 5 syd / Sydney, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "172.105.166.103,172.105.169.57,172.105.179.230,2400:8907::2000:2fff:fea7:57f4,2400:8907::2000:ccff:fe1f:80da,2400:8907::2000:ceff:fe8d:4f4e",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 5 syd / Sydney, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "172.105.166.103,172.105.169.57,172.105.179.230,2400:8907::2000:2fff:fea7:57f4,2400:8907::2000:ccff:fe1f:80da,2400:8907::2000:ceff:fe8d:4f4e",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 5 syd / Sydney, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "172.105.166.103,172.105.169.57,172.105.179.230,2400:8907::2000:2fff:fea7:57f4,2400:8907::2000:ccff:fe1f:80da,2400:8907::2000:ceff:fe8d:4f4e",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 5 syd / Sydney, 6 address(es)"
     },
     {
       "action": "allow",
@@ -284,11 +884,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "2400:6180:100:d0::982:d001,68.183.90.120",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 6 blr / Bengaluru, 2 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "2400:6180:100:d0::982:d001,68.183.90.120",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 6 blr / Bengaluru, 2 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "2400:6180:100:d0::982:d001,68.183.90.120",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 6 blr / Bengaluru, 2 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "2400:6180:100:d0::982:d001,68.183.90.120",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 6 blr / Bengaluru, 2 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "2400:6180:100:d0::982:d001,68.183.90.120",
       "notes": "DERP over port 443: region 6 blr / Bengaluru, 2 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "2400:6180:100:d0::982:d001,68.183.90.120",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 6 blr / Bengaluru, 2 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "2400:6180:100:d0::982:d001,68.183.90.120",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 6 blr / Bengaluru, 2 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "2400:6180:100:d0::982:d001,68.183.90.120",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 6 blr / Bengaluru, 2 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "2400:6180:100:d0::982:d001,68.183.90.120",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 6 blr / Bengaluru, 2 address(es)"
     },
     {
       "action": "allow",
@@ -325,6 +1005,46 @@
       "ports": "3478",
       "remote-addresses": "2400:6180:100:d0::982:d001,68.183.90.120",
       "notes": "STUN: region 6 blr / Bengaluru, 2 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "2400:6180:100:d0::982:d001,68.183.90.120",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 6 blr / Bengaluru, 2 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "2400:6180:100:d0::982:d001,68.183.90.120",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 6 blr / Bengaluru, 2 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "2400:6180:100:d0::982:d001,68.183.90.120",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 6 blr / Bengaluru, 2 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "2400:6180:100:d0::982:d001,68.183.90.120",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 6 blr / Bengaluru, 2 address(es)"
     },
     {
       "action": "allow",
@@ -338,11 +1058,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "172.237.28.183,172.238.6.179,172.238.6.180,172.238.6.34,2600:3c18::2000:3fff:fe80:3ebd,2600:3c18::2000:60ff:fe0f:6e83,2600:3c18::2000:acff:fe8e:3ed5,2600:3c18::2000:b1ff:fea9:4560",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 7 tok / Tokyo, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "172.237.28.183,172.238.6.179,172.238.6.180,172.238.6.34,2600:3c18::2000:3fff:fe80:3ebd,2600:3c18::2000:60ff:fe0f:6e83,2600:3c18::2000:acff:fe8e:3ed5,2600:3c18::2000:b1ff:fea9:4560",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 7 tok / Tokyo, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "172.237.28.183,172.238.6.179,172.238.6.180,172.238.6.34,2600:3c18::2000:3fff:fe80:3ebd,2600:3c18::2000:60ff:fe0f:6e83,2600:3c18::2000:acff:fe8e:3ed5,2600:3c18::2000:b1ff:fea9:4560",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 7 tok / Tokyo, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "172.237.28.183,172.238.6.179,172.238.6.180,172.238.6.34,2600:3c18::2000:3fff:fe80:3ebd,2600:3c18::2000:60ff:fe0f:6e83,2600:3c18::2000:acff:fe8e:3ed5,2600:3c18::2000:b1ff:fea9:4560",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 7 tok / Tokyo, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "172.237.28.183,172.238.6.179,172.238.6.180,172.238.6.34,2600:3c18::2000:3fff:fe80:3ebd,2600:3c18::2000:60ff:fe0f:6e83,2600:3c18::2000:acff:fe8e:3ed5,2600:3c18::2000:b1ff:fea9:4560",
       "notes": "DERP over port 443: region 7 tok / Tokyo, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "172.237.28.183,172.238.6.179,172.238.6.180,172.238.6.34,2600:3c18::2000:3fff:fe80:3ebd,2600:3c18::2000:60ff:fe0f:6e83,2600:3c18::2000:acff:fe8e:3ed5,2600:3c18::2000:b1ff:fea9:4560",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 7 tok / Tokyo, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "172.237.28.183,172.238.6.179,172.238.6.180,172.238.6.34,2600:3c18::2000:3fff:fe80:3ebd,2600:3c18::2000:60ff:fe0f:6e83,2600:3c18::2000:acff:fe8e:3ed5,2600:3c18::2000:b1ff:fea9:4560",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 7 tok / Tokyo, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "172.237.28.183,172.238.6.179,172.238.6.180,172.238.6.34,2600:3c18::2000:3fff:fe80:3ebd,2600:3c18::2000:60ff:fe0f:6e83,2600:3c18::2000:acff:fe8e:3ed5,2600:3c18::2000:b1ff:fea9:4560",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 7 tok / Tokyo, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "172.237.28.183,172.238.6.179,172.238.6.180,172.238.6.34,2600:3c18::2000:3fff:fe80:3ebd,2600:3c18::2000:60ff:fe0f:6e83,2600:3c18::2000:acff:fe8e:3ed5,2600:3c18::2000:b1ff:fea9:4560",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 7 tok / Tokyo, 8 address(es)"
     },
     {
       "action": "allow",
@@ -379,6 +1179,46 @@
       "ports": "3478",
       "remote-addresses": "172.237.28.183,172.238.6.179,172.238.6.180,172.238.6.34,2600:3c18::2000:3fff:fe80:3ebd,2600:3c18::2000:60ff:fe0f:6e83,2600:3c18::2000:acff:fe8e:3ed5,2600:3c18::2000:b1ff:fea9:4560",
       "notes": "STUN: region 7 tok / Tokyo, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "172.237.28.183,172.238.6.179,172.238.6.180,172.238.6.34,2600:3c18::2000:3fff:fe80:3ebd,2600:3c18::2000:60ff:fe0f:6e83,2600:3c18::2000:acff:fe8e:3ed5,2600:3c18::2000:b1ff:fea9:4560",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 7 tok / Tokyo, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "172.237.28.183,172.238.6.179,172.238.6.180,172.238.6.34,2600:3c18::2000:3fff:fe80:3ebd,2600:3c18::2000:60ff:fe0f:6e83,2600:3c18::2000:acff:fe8e:3ed5,2600:3c18::2000:b1ff:fea9:4560",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 7 tok / Tokyo, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "172.237.28.183,172.238.6.179,172.238.6.180,172.238.6.34,2600:3c18::2000:3fff:fe80:3ebd,2600:3c18::2000:60ff:fe0f:6e83,2600:3c18::2000:acff:fe8e:3ed5,2600:3c18::2000:b1ff:fea9:4560",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 7 tok / Tokyo, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "172.237.28.183,172.238.6.179,172.238.6.180,172.238.6.34,2600:3c18::2000:3fff:fe80:3ebd,2600:3c18::2000:60ff:fe0f:6e83,2600:3c18::2000:acff:fe8e:3ed5,2600:3c18::2000:b1ff:fea9:4560",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 7 tok / Tokyo, 8 address(es)"
     },
     {
       "action": "allow",
@@ -392,11 +1232,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "176.58.88.183,176.58.92.144,176.58.92.254,2a00:dd80:3a::b33,2a00:dd80:3a::dfa,2a00:dd80:3a::ed",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 8 lhr / London, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "176.58.88.183,176.58.92.144,176.58.92.254,2a00:dd80:3a::b33,2a00:dd80:3a::dfa,2a00:dd80:3a::ed",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 8 lhr / London, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "176.58.88.183,176.58.92.144,176.58.92.254,2a00:dd80:3a::b33,2a00:dd80:3a::dfa,2a00:dd80:3a::ed",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 8 lhr / London, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "176.58.88.183,176.58.92.144,176.58.92.254,2a00:dd80:3a::b33,2a00:dd80:3a::dfa,2a00:dd80:3a::ed",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 8 lhr / London, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "176.58.88.183,176.58.92.144,176.58.92.254,2a00:dd80:3a::b33,2a00:dd80:3a::dfa,2a00:dd80:3a::ed",
       "notes": "DERP over port 443: region 8 lhr / London, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "176.58.88.183,176.58.92.144,176.58.92.254,2a00:dd80:3a::b33,2a00:dd80:3a::dfa,2a00:dd80:3a::ed",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 8 lhr / London, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "176.58.88.183,176.58.92.144,176.58.92.254,2a00:dd80:3a::b33,2a00:dd80:3a::dfa,2a00:dd80:3a::ed",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 8 lhr / London, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "176.58.88.183,176.58.92.144,176.58.92.254,2a00:dd80:3a::b33,2a00:dd80:3a::dfa,2a00:dd80:3a::ed",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 8 lhr / London, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "176.58.88.183,176.58.92.144,176.58.92.254,2a00:dd80:3a::b33,2a00:dd80:3a::dfa,2a00:dd80:3a::ed",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 8 lhr / London, 6 address(es)"
     },
     {
       "action": "allow",
@@ -433,6 +1353,46 @@
       "ports": "3478",
       "remote-addresses": "176.58.88.183,176.58.92.144,176.58.92.254,2a00:dd80:3a::b33,2a00:dd80:3a::dfa,2a00:dd80:3a::ed",
       "notes": "STUN: region 8 lhr / London, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "176.58.88.183,176.58.92.144,176.58.92.254,2a00:dd80:3a::b33,2a00:dd80:3a::dfa,2a00:dd80:3a::ed",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 8 lhr / London, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "176.58.88.183,176.58.92.144,176.58.92.254,2a00:dd80:3a::b33,2a00:dd80:3a::dfa,2a00:dd80:3a::ed",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 8 lhr / London, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "176.58.88.183,176.58.92.144,176.58.92.254,2a00:dd80:3a::b33,2a00:dd80:3a::dfa,2a00:dd80:3a::ed",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 8 lhr / London, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "176.58.88.183,176.58.92.144,176.58.92.254,2a00:dd80:3a::b33,2a00:dd80:3a::dfa,2a00:dd80:3a::ed",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 8 lhr / London, 6 address(es)"
     },
     {
       "action": "allow",
@@ -446,11 +1406,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.248.83,209.177.156.197,209.177.156.94,2607:f740:100::359,2607:f740:100::c05,2607:f740:100::cad",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 9 dfw / Dallas, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.248.83,209.177.156.197,209.177.156.94,2607:f740:100::359,2607:f740:100::c05,2607:f740:100::cad",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 9 dfw / Dallas, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.248.83,209.177.156.197,209.177.156.94,2607:f740:100::359,2607:f740:100::c05,2607:f740:100::cad",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 9 dfw / Dallas, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.248.83,209.177.156.197,209.177.156.94,2607:f740:100::359,2607:f740:100::c05,2607:f740:100::cad",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 9 dfw / Dallas, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "192.73.248.83,209.177.156.197,209.177.156.94,2607:f740:100::359,2607:f740:100::c05,2607:f740:100::cad",
       "notes": "DERP over port 443: region 9 dfw / Dallas, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.248.83,209.177.156.197,209.177.156.94,2607:f740:100::359,2607:f740:100::c05,2607:f740:100::cad",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 9 dfw / Dallas, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.248.83,209.177.156.197,209.177.156.94,2607:f740:100::359,2607:f740:100::c05,2607:f740:100::cad",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 9 dfw / Dallas, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.248.83,209.177.156.197,209.177.156.94,2607:f740:100::359,2607:f740:100::c05,2607:f740:100::cad",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 9 dfw / Dallas, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.248.83,209.177.156.197,209.177.156.94,2607:f740:100::359,2607:f740:100::c05,2607:f740:100::cad",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 9 dfw / Dallas, 6 address(es)"
     },
     {
       "action": "allow",
@@ -487,6 +1527,46 @@
       "ports": "3478",
       "remote-addresses": "192.73.248.83,209.177.156.197,209.177.156.94,2607:f740:100::359,2607:f740:100::c05,2607:f740:100::cad",
       "notes": "STUN: region 9 dfw / Dallas, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.248.83,209.177.156.197,209.177.156.94,2607:f740:100::359,2607:f740:100::c05,2607:f740:100::cad",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 9 dfw / Dallas, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.248.83,209.177.156.197,209.177.156.94,2607:f740:100::359,2607:f740:100::c05,2607:f740:100::cad",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 9 dfw / Dallas, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.248.83,209.177.156.197,209.177.156.94,2607:f740:100::359,2607:f740:100::c05,2607:f740:100::cad",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 9 dfw / Dallas, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.248.83,209.177.156.197,209.177.156.94,2607:f740:100::359,2607:f740:100::c05,2607:f740:100::cad",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 9 dfw / Dallas, 6 address(es)"
     },
     {
       "action": "allow",
@@ -500,11 +1580,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.240.121,192.73.240.132,192.73.240.161,2607:f740:14::40c,2607:f740:14::500,2607:f740:14::61c",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 10 sea / Seattle, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.240.121,192.73.240.132,192.73.240.161,2607:f740:14::40c,2607:f740:14::500,2607:f740:14::61c",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 10 sea / Seattle, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.240.121,192.73.240.132,192.73.240.161,2607:f740:14::40c,2607:f740:14::500,2607:f740:14::61c",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 10 sea / Seattle, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.240.121,192.73.240.132,192.73.240.161,2607:f740:14::40c,2607:f740:14::500,2607:f740:14::61c",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 10 sea / Seattle, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "192.73.240.121,192.73.240.132,192.73.240.161,2607:f740:14::40c,2607:f740:14::500,2607:f740:14::61c",
       "notes": "DERP over port 443: region 10 sea / Seattle, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.240.121,192.73.240.132,192.73.240.161,2607:f740:14::40c,2607:f740:14::500,2607:f740:14::61c",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 10 sea / Seattle, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.240.121,192.73.240.132,192.73.240.161,2607:f740:14::40c,2607:f740:14::500,2607:f740:14::61c",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 10 sea / Seattle, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.240.121,192.73.240.132,192.73.240.161,2607:f740:14::40c,2607:f740:14::500,2607:f740:14::61c",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 10 sea / Seattle, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.240.121,192.73.240.132,192.73.240.161,2607:f740:14::40c,2607:f740:14::500,2607:f740:14::61c",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 10 sea / Seattle, 6 address(es)"
     },
     {
       "action": "allow",
@@ -541,6 +1701,46 @@
       "ports": "3478",
       "remote-addresses": "192.73.240.121,192.73.240.132,192.73.240.161,2607:f740:14::40c,2607:f740:14::500,2607:f740:14::61c",
       "notes": "STUN: region 10 sea / Seattle, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.240.121,192.73.240.132,192.73.240.161,2607:f740:14::40c,2607:f740:14::500,2607:f740:14::61c",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 10 sea / Seattle, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.240.121,192.73.240.132,192.73.240.161,2607:f740:14::40c,2607:f740:14::500,2607:f740:14::61c",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 10 sea / Seattle, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.240.121,192.73.240.132,192.73.240.161,2607:f740:14::40c,2607:f740:14::500,2607:f740:14::61c",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 10 sea / Seattle, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.240.121,192.73.240.132,192.73.240.161,2607:f740:14::40c,2607:f740:14::500,2607:f740:14::61c",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 10 sea / Seattle, 6 address(es)"
     },
     {
       "action": "allow",
@@ -554,11 +1754,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "172.237.61.190,172.237.61.194,172.237.61.197,2600:3c0d::2000:3bff:fe44:6166,2600:3c0d::2000:62ff:febe:2e67,2600:3c0d::2000:d2ff:fe43:1790",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 11 sao / São Paulo, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "172.237.61.190,172.237.61.194,172.237.61.197,2600:3c0d::2000:3bff:fe44:6166,2600:3c0d::2000:62ff:febe:2e67,2600:3c0d::2000:d2ff:fe43:1790",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 11 sao / São Paulo, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "172.237.61.190,172.237.61.194,172.237.61.197,2600:3c0d::2000:3bff:fe44:6166,2600:3c0d::2000:62ff:febe:2e67,2600:3c0d::2000:d2ff:fe43:1790",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 11 sao / São Paulo, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "172.237.61.190,172.237.61.194,172.237.61.197,2600:3c0d::2000:3bff:fe44:6166,2600:3c0d::2000:62ff:febe:2e67,2600:3c0d::2000:d2ff:fe43:1790",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 11 sao / São Paulo, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "172.237.61.190,172.237.61.194,172.237.61.197,2600:3c0d::2000:3bff:fe44:6166,2600:3c0d::2000:62ff:febe:2e67,2600:3c0d::2000:d2ff:fe43:1790",
       "notes": "DERP over port 443: region 11 sao / São Paulo, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "172.237.61.190,172.237.61.194,172.237.61.197,2600:3c0d::2000:3bff:fe44:6166,2600:3c0d::2000:62ff:febe:2e67,2600:3c0d::2000:d2ff:fe43:1790",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 11 sao / São Paulo, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "172.237.61.190,172.237.61.194,172.237.61.197,2600:3c0d::2000:3bff:fe44:6166,2600:3c0d::2000:62ff:febe:2e67,2600:3c0d::2000:d2ff:fe43:1790",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 11 sao / São Paulo, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "172.237.61.190,172.237.61.194,172.237.61.197,2600:3c0d::2000:3bff:fe44:6166,2600:3c0d::2000:62ff:febe:2e67,2600:3c0d::2000:d2ff:fe43:1790",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 11 sao / São Paulo, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "172.237.61.190,172.237.61.194,172.237.61.197,2600:3c0d::2000:3bff:fe44:6166,2600:3c0d::2000:62ff:febe:2e67,2600:3c0d::2000:d2ff:fe43:1790",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 11 sao / São Paulo, 6 address(es)"
     },
     {
       "action": "allow",
@@ -595,6 +1875,46 @@
       "ports": "3478",
       "remote-addresses": "172.237.61.190,172.237.61.194,172.237.61.197,2600:3c0d::2000:3bff:fe44:6166,2600:3c0d::2000:62ff:febe:2e67,2600:3c0d::2000:d2ff:fe43:1790",
       "notes": "STUN: region 11 sao / São Paulo, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "172.237.61.190,172.237.61.194,172.237.61.197,2600:3c0d::2000:3bff:fe44:6166,2600:3c0d::2000:62ff:febe:2e67,2600:3c0d::2000:d2ff:fe43:1790",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 11 sao / São Paulo, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "172.237.61.190,172.237.61.194,172.237.61.197,2600:3c0d::2000:3bff:fe44:6166,2600:3c0d::2000:62ff:febe:2e67,2600:3c0d::2000:d2ff:fe43:1790",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 11 sao / São Paulo, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "172.237.61.190,172.237.61.194,172.237.61.197,2600:3c0d::2000:3bff:fe44:6166,2600:3c0d::2000:62ff:febe:2e67,2600:3c0d::2000:d2ff:fe43:1790",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 11 sao / São Paulo, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "172.237.61.190,172.237.61.194,172.237.61.197,2600:3c0d::2000:3bff:fe44:6166,2600:3c0d::2000:62ff:febe:2e67,2600:3c0d::2000:d2ff:fe43:1790",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 11 sao / São Paulo, 6 address(es)"
     },
     {
       "action": "allow",
@@ -608,11 +1928,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "199.38.182.118,209.177.158.15,209.177.158.246,2607:f740:e::4c8,2607:f740:e::811,2607:f740:e::b17",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 12 ord / Chicago, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "199.38.182.118,209.177.158.15,209.177.158.246,2607:f740:e::4c8,2607:f740:e::811,2607:f740:e::b17",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 12 ord / Chicago, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "199.38.182.118,209.177.158.15,209.177.158.246,2607:f740:e::4c8,2607:f740:e::811,2607:f740:e::b17",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 12 ord / Chicago, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "199.38.182.118,209.177.158.15,209.177.158.246,2607:f740:e::4c8,2607:f740:e::811,2607:f740:e::b17",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 12 ord / Chicago, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "199.38.182.118,209.177.158.15,209.177.158.246,2607:f740:e::4c8,2607:f740:e::811,2607:f740:e::b17",
       "notes": "DERP over port 443: region 12 ord / Chicago, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "199.38.182.118,209.177.158.15,209.177.158.246,2607:f740:e::4c8,2607:f740:e::811,2607:f740:e::b17",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 12 ord / Chicago, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "199.38.182.118,209.177.158.15,209.177.158.246,2607:f740:e::4c8,2607:f740:e::811,2607:f740:e::b17",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 12 ord / Chicago, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "199.38.182.118,209.177.158.15,209.177.158.246,2607:f740:e::4c8,2607:f740:e::811,2607:f740:e::b17",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 12 ord / Chicago, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "199.38.182.118,209.177.158.15,209.177.158.246,2607:f740:e::4c8,2607:f740:e::811,2607:f740:e::b17",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 12 ord / Chicago, 6 address(es)"
     },
     {
       "action": "allow",
@@ -649,6 +2049,46 @@
       "ports": "3478",
       "remote-addresses": "199.38.182.118,209.177.158.15,209.177.158.246,2607:f740:e::4c8,2607:f740:e::811,2607:f740:e::b17",
       "notes": "STUN: region 12 ord / Chicago, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "199.38.182.118,209.177.158.15,209.177.158.246,2607:f740:e::4c8,2607:f740:e::811,2607:f740:e::b17",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 12 ord / Chicago, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "199.38.182.118,209.177.158.15,209.177.158.246,2607:f740:e::4c8,2607:f740:e::811,2607:f740:e::b17",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 12 ord / Chicago, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "199.38.182.118,209.177.158.15,209.177.158.246,2607:f740:e::4c8,2607:f740:e::811,2607:f740:e::b17",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 12 ord / Chicago, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "199.38.182.118,209.177.158.15,209.177.158.246,2607:f740:e::4c8,2607:f740:e::811,2607:f740:e::b17",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 12 ord / Chicago, 6 address(es)"
     },
     {
       "action": "allow",
@@ -662,11 +2102,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.242.187,192.73.242.204,192.73.242.28,2607:f740:16::5c,2607:f740:16::640,2607:f740:16::c23",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 13 den / Denver, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.242.187,192.73.242.204,192.73.242.28,2607:f740:16::5c,2607:f740:16::640,2607:f740:16::c23",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 13 den / Denver, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.242.187,192.73.242.204,192.73.242.28,2607:f740:16::5c,2607:f740:16::640,2607:f740:16::c23",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 13 den / Denver, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.242.187,192.73.242.204,192.73.242.28,2607:f740:16::5c,2607:f740:16::640,2607:f740:16::c23",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 13 den / Denver, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "192.73.242.187,192.73.242.204,192.73.242.28,2607:f740:16::5c,2607:f740:16::640,2607:f740:16::c23",
       "notes": "DERP over port 443: region 13 den / Denver, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.242.187,192.73.242.204,192.73.242.28,2607:f740:16::5c,2607:f740:16::640,2607:f740:16::c23",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 13 den / Denver, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.242.187,192.73.242.204,192.73.242.28,2607:f740:16::5c,2607:f740:16::640,2607:f740:16::c23",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 13 den / Denver, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.242.187,192.73.242.204,192.73.242.28,2607:f740:16::5c,2607:f740:16::640,2607:f740:16::c23",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 13 den / Denver, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.242.187,192.73.242.204,192.73.242.28,2607:f740:16::5c,2607:f740:16::640,2607:f740:16::c23",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 13 den / Denver, 6 address(es)"
     },
     {
       "action": "allow",
@@ -703,6 +2223,46 @@
       "ports": "3478",
       "remote-addresses": "192.73.242.187,192.73.242.204,192.73.242.28,2607:f740:16::5c,2607:f740:16::640,2607:f740:16::c23",
       "notes": "STUN: region 13 den / Denver, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.242.187,192.73.242.204,192.73.242.28,2607:f740:16::5c,2607:f740:16::640,2607:f740:16::c23",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 13 den / Denver, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.242.187,192.73.242.204,192.73.242.28,2607:f740:16::5c,2607:f740:16::640,2607:f740:16::c23",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 13 den / Denver, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.242.187,192.73.242.204,192.73.242.28,2607:f740:16::5c,2607:f740:16::640,2607:f740:16::c23",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 13 den / Denver, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.242.187,192.73.242.204,192.73.242.28,2607:f740:16::5c,2607:f740:16::640,2607:f740:16::c23",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 13 den / Denver, 6 address(es)"
     },
     {
       "action": "allow",
@@ -716,11 +2276,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 14 ams / Amsterdam, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 14 ams / Amsterdam, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 14 ams / Amsterdam, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 14 ams / Amsterdam, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
       "notes": "DERP over port 443: region 14 ams / Amsterdam, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 14 ams / Amsterdam, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 14 ams / Amsterdam, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 14 ams / Amsterdam, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 14 ams / Amsterdam, 6 address(es)"
     },
     {
       "action": "allow",
@@ -757,6 +2397,46 @@
       "ports": "3478",
       "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
       "notes": "STUN: region 14 ams / Amsterdam, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 14 ams / Amsterdam, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 14 ams / Amsterdam, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 14 ams / Amsterdam, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 14 ams / Amsterdam, 6 address(es)"
     },
     {
       "action": "allow",
@@ -770,11 +2450,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "102.67.165.185,102.67.165.36,102.67.165.90,2c0f:edb0:0:10::599,2c0f:edb0:0:10::963,2c0f:edb0:0:10::b59",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 15 jnb / Johannesburg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "102.67.165.185,102.67.165.36,102.67.165.90,2c0f:edb0:0:10::599,2c0f:edb0:0:10::963,2c0f:edb0:0:10::b59",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 15 jnb / Johannesburg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "102.67.165.185,102.67.165.36,102.67.165.90,2c0f:edb0:0:10::599,2c0f:edb0:0:10::963,2c0f:edb0:0:10::b59",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 15 jnb / Johannesburg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "102.67.165.185,102.67.165.36,102.67.165.90,2c0f:edb0:0:10::599,2c0f:edb0:0:10::963,2c0f:edb0:0:10::b59",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 15 jnb / Johannesburg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "102.67.165.185,102.67.165.36,102.67.165.90,2c0f:edb0:0:10::599,2c0f:edb0:0:10::963,2c0f:edb0:0:10::b59",
       "notes": "DERP over port 443: region 15 jnb / Johannesburg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "102.67.165.185,102.67.165.36,102.67.165.90,2c0f:edb0:0:10::599,2c0f:edb0:0:10::963,2c0f:edb0:0:10::b59",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 15 jnb / Johannesburg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "102.67.165.185,102.67.165.36,102.67.165.90,2c0f:edb0:0:10::599,2c0f:edb0:0:10::963,2c0f:edb0:0:10::b59",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 15 jnb / Johannesburg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "102.67.165.185,102.67.165.36,102.67.165.90,2c0f:edb0:0:10::599,2c0f:edb0:0:10::963,2c0f:edb0:0:10::b59",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 15 jnb / Johannesburg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "102.67.165.185,102.67.165.36,102.67.165.90,2c0f:edb0:0:10::599,2c0f:edb0:0:10::963,2c0f:edb0:0:10::b59",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 15 jnb / Johannesburg, 6 address(es)"
     },
     {
       "action": "allow",
@@ -811,6 +2571,46 @@
       "ports": "3478",
       "remote-addresses": "102.67.165.185,102.67.165.36,102.67.165.90,2c0f:edb0:0:10::599,2c0f:edb0:0:10::963,2c0f:edb0:0:10::b59",
       "notes": "STUN: region 15 jnb / Johannesburg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "102.67.165.185,102.67.165.36,102.67.165.90,2c0f:edb0:0:10::599,2c0f:edb0:0:10::963,2c0f:edb0:0:10::b59",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 15 jnb / Johannesburg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "102.67.165.185,102.67.165.36,102.67.165.90,2c0f:edb0:0:10::599,2c0f:edb0:0:10::963,2c0f:edb0:0:10::b59",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 15 jnb / Johannesburg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "102.67.165.185,102.67.165.36,102.67.165.90,2c0f:edb0:0:10::599,2c0f:edb0:0:10::963,2c0f:edb0:0:10::b59",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 15 jnb / Johannesburg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "102.67.165.185,102.67.165.36,102.67.165.90,2c0f:edb0:0:10::599,2c0f:edb0:0:10::963,2c0f:edb0:0:10::b59",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 15 jnb / Johannesburg, 6 address(es)"
     },
     {
       "action": "allow",
@@ -824,11 +2624,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.243.135,192.73.243.141,192.73.243.229,2607:f740:17::475,2607:f740:17::476,2607:f740:17::4e4",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 16 mia / Miami, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.243.135,192.73.243.141,192.73.243.229,2607:f740:17::475,2607:f740:17::476,2607:f740:17::4e4",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 16 mia / Miami, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.243.135,192.73.243.141,192.73.243.229,2607:f740:17::475,2607:f740:17::476,2607:f740:17::4e4",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 16 mia / Miami, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.243.135,192.73.243.141,192.73.243.229,2607:f740:17::475,2607:f740:17::476,2607:f740:17::4e4",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 16 mia / Miami, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "192.73.243.135,192.73.243.141,192.73.243.229,2607:f740:17::475,2607:f740:17::476,2607:f740:17::4e4",
       "notes": "DERP over port 443: region 16 mia / Miami, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.243.135,192.73.243.141,192.73.243.229,2607:f740:17::475,2607:f740:17::476,2607:f740:17::4e4",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 16 mia / Miami, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.243.135,192.73.243.141,192.73.243.229,2607:f740:17::475,2607:f740:17::476,2607:f740:17::4e4",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 16 mia / Miami, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.243.135,192.73.243.141,192.73.243.229,2607:f740:17::475,2607:f740:17::476,2607:f740:17::4e4",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 16 mia / Miami, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.243.135,192.73.243.141,192.73.243.229,2607:f740:17::475,2607:f740:17::476,2607:f740:17::4e4",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 16 mia / Miami, 6 address(es)"
     },
     {
       "action": "allow",
@@ -865,6 +2745,46 @@
       "ports": "3478",
       "remote-addresses": "192.73.243.135,192.73.243.141,192.73.243.229,2607:f740:17::475,2607:f740:17::476,2607:f740:17::4e4",
       "notes": "STUN: region 16 mia / Miami, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.243.135,192.73.243.141,192.73.243.229,2607:f740:17::475,2607:f740:17::476,2607:f740:17::4e4",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 16 mia / Miami, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.243.135,192.73.243.141,192.73.243.229,2607:f740:17::475,2607:f740:17::476,2607:f740:17::4e4",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 16 mia / Miami, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.243.135,192.73.243.141,192.73.243.229,2607:f740:17::475,2607:f740:17::476,2607:f740:17::4e4",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 16 mia / Miami, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.243.135,192.73.243.141,192.73.243.229,2607:f740:17::475,2607:f740:17::476,2607:f740:17::4e4",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 16 mia / Miami, 6 address(es)"
     },
     {
       "action": "allow",
@@ -878,11 +2798,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.244.245,208.111.40.12,208.111.40.216,2607:f740:c::10,2607:f740:c::646,2607:f740:c::e1b",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 17 lax / Los Angeles, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.244.245,208.111.40.12,208.111.40.216,2607:f740:c::10,2607:f740:c::646,2607:f740:c::e1b",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 17 lax / Los Angeles, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.244.245,208.111.40.12,208.111.40.216,2607:f740:c::10,2607:f740:c::646,2607:f740:c::e1b",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 17 lax / Los Angeles, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "192.73.244.245,208.111.40.12,208.111.40.216,2607:f740:c::10,2607:f740:c::646,2607:f740:c::e1b",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 17 lax / Los Angeles, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "192.73.244.245,208.111.40.12,208.111.40.216,2607:f740:c::10,2607:f740:c::646,2607:f740:c::e1b",
       "notes": "DERP over port 443: region 17 lax / Los Angeles, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.244.245,208.111.40.12,208.111.40.216,2607:f740:c::10,2607:f740:c::646,2607:f740:c::e1b",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 17 lax / Los Angeles, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.244.245,208.111.40.12,208.111.40.216,2607:f740:c::10,2607:f740:c::646,2607:f740:c::e1b",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 17 lax / Los Angeles, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.244.245,208.111.40.12,208.111.40.216,2607:f740:c::10,2607:f740:c::646,2607:f740:c::e1b",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 17 lax / Los Angeles, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "192.73.244.245,208.111.40.12,208.111.40.216,2607:f740:c::10,2607:f740:c::646,2607:f740:c::e1b",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 17 lax / Los Angeles, 6 address(es)"
     },
     {
       "action": "allow",
@@ -919,6 +2919,46 @@
       "ports": "3478",
       "remote-addresses": "192.73.244.245,208.111.40.12,208.111.40.216,2607:f740:c::10,2607:f740:c::646,2607:f740:c::e1b",
       "notes": "STUN: region 17 lax / Los Angeles, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.244.245,208.111.40.12,208.111.40.216,2607:f740:c::10,2607:f740:c::646,2607:f740:c::e1b",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 17 lax / Los Angeles, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.244.245,208.111.40.12,208.111.40.216,2607:f740:c::10,2607:f740:c::646,2607:f740:c::e1b",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 17 lax / Los Angeles, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.244.245,208.111.40.12,208.111.40.216,2607:f740:c::10,2607:f740:c::646,2607:f740:c::e1b",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 17 lax / Los Angeles, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "192.73.244.245,208.111.40.12,208.111.40.216,2607:f740:c::10,2607:f740:c::646,2607:f740:c::e1b",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 17 lax / Los Angeles, 6 address(es)"
     },
     {
       "action": "allow",
@@ -932,11 +2972,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "176.58.90.104,176.58.90.147,176.58.90.207,2a00:dd80:3e::363,2a00:dd80:3e::c19,2a00:dd80:3e::f2e",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 18 par / Paris, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "176.58.90.104,176.58.90.147,176.58.90.207,2a00:dd80:3e::363,2a00:dd80:3e::c19,2a00:dd80:3e::f2e",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 18 par / Paris, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "176.58.90.104,176.58.90.147,176.58.90.207,2a00:dd80:3e::363,2a00:dd80:3e::c19,2a00:dd80:3e::f2e",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 18 par / Paris, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "176.58.90.104,176.58.90.147,176.58.90.207,2a00:dd80:3e::363,2a00:dd80:3e::c19,2a00:dd80:3e::f2e",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 18 par / Paris, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "176.58.90.104,176.58.90.147,176.58.90.207,2a00:dd80:3e::363,2a00:dd80:3e::c19,2a00:dd80:3e::f2e",
       "notes": "DERP over port 443: region 18 par / Paris, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "176.58.90.104,176.58.90.147,176.58.90.207,2a00:dd80:3e::363,2a00:dd80:3e::c19,2a00:dd80:3e::f2e",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 18 par / Paris, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "176.58.90.104,176.58.90.147,176.58.90.207,2a00:dd80:3e::363,2a00:dd80:3e::c19,2a00:dd80:3e::f2e",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 18 par / Paris, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "176.58.90.104,176.58.90.147,176.58.90.207,2a00:dd80:3e::363,2a00:dd80:3e::c19,2a00:dd80:3e::f2e",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 18 par / Paris, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "176.58.90.104,176.58.90.147,176.58.90.207,2a00:dd80:3e::363,2a00:dd80:3e::c19,2a00:dd80:3e::f2e",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 18 par / Paris, 6 address(es)"
     },
     {
       "action": "allow",
@@ -973,6 +3093,46 @@
       "ports": "3478",
       "remote-addresses": "176.58.90.104,176.58.90.147,176.58.90.207,2a00:dd80:3e::363,2a00:dd80:3e::c19,2a00:dd80:3e::f2e",
       "notes": "STUN: region 18 par / Paris, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "176.58.90.104,176.58.90.147,176.58.90.207,2a00:dd80:3e::363,2a00:dd80:3e::c19,2a00:dd80:3e::f2e",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 18 par / Paris, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "176.58.90.104,176.58.90.147,176.58.90.207,2a00:dd80:3e::363,2a00:dd80:3e::c19,2a00:dd80:3e::f2e",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 18 par / Paris, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "176.58.90.104,176.58.90.147,176.58.90.207,2a00:dd80:3e::363,2a00:dd80:3e::c19,2a00:dd80:3e::f2e",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 18 par / Paris, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "176.58.90.104,176.58.90.147,176.58.90.207,2a00:dd80:3e::363,2a00:dd80:3e::c19,2a00:dd80:3e::f2e",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 18 par / Paris, 6 address(es)"
     },
     {
       "action": "allow",
@@ -986,11 +3146,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "2a00:dd80:14:10::20,2a00:dd80:14:10::335,2a00:dd80:14:10::34a,45.159.97.144,45.159.97.233,45.159.97.61",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 19 mad / Madrid, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "2a00:dd80:14:10::20,2a00:dd80:14:10::335,2a00:dd80:14:10::34a,45.159.97.144,45.159.97.233,45.159.97.61",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 19 mad / Madrid, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "2a00:dd80:14:10::20,2a00:dd80:14:10::335,2a00:dd80:14:10::34a,45.159.97.144,45.159.97.233,45.159.97.61",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 19 mad / Madrid, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "2a00:dd80:14:10::20,2a00:dd80:14:10::335,2a00:dd80:14:10::34a,45.159.97.144,45.159.97.233,45.159.97.61",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 19 mad / Madrid, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "2a00:dd80:14:10::20,2a00:dd80:14:10::335,2a00:dd80:14:10::34a,45.159.97.144,45.159.97.233,45.159.97.61",
       "notes": "DERP over port 443: region 19 mad / Madrid, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "2a00:dd80:14:10::20,2a00:dd80:14:10::335,2a00:dd80:14:10::34a,45.159.97.144,45.159.97.233,45.159.97.61",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 19 mad / Madrid, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "2a00:dd80:14:10::20,2a00:dd80:14:10::335,2a00:dd80:14:10::34a,45.159.97.144,45.159.97.233,45.159.97.61",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 19 mad / Madrid, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "2a00:dd80:14:10::20,2a00:dd80:14:10::335,2a00:dd80:14:10::34a,45.159.97.144,45.159.97.233,45.159.97.61",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 19 mad / Madrid, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "2a00:dd80:14:10::20,2a00:dd80:14:10::335,2a00:dd80:14:10::34a,45.159.97.144,45.159.97.233,45.159.97.61",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 19 mad / Madrid, 6 address(es)"
     },
     {
       "action": "allow",
@@ -1027,6 +3267,46 @@
       "ports": "3478",
       "remote-addresses": "2a00:dd80:14:10::20,2a00:dd80:14:10::335,2a00:dd80:14:10::34a,45.159.97.144,45.159.97.233,45.159.97.61",
       "notes": "STUN: region 19 mad / Madrid, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "2a00:dd80:14:10::20,2a00:dd80:14:10::335,2a00:dd80:14:10::34a,45.159.97.144,45.159.97.233,45.159.97.61",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 19 mad / Madrid, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "2a00:dd80:14:10::20,2a00:dd80:14:10::335,2a00:dd80:14:10::34a,45.159.97.144,45.159.97.233,45.159.97.61",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 19 mad / Madrid, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "2a00:dd80:14:10::20,2a00:dd80:14:10::335,2a00:dd80:14:10::34a,45.159.97.144,45.159.97.233,45.159.97.61",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 19 mad / Madrid, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "2a00:dd80:14:10::20,2a00:dd80:14:10::335,2a00:dd80:14:10::34a,45.159.97.144,45.159.97.233,45.159.97.61",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 19 mad / Madrid, 6 address(es)"
     },
     {
       "action": "allow",
@@ -1040,11 +3320,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "103.6.84.152,205.147.105.30,205.147.105.78,2403:2500:8000:1::5fb,2403:2500:8000:1::e9a,2403:2500:8000:1::ef6",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 20 hkg / Hong Kong, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "103.6.84.152,205.147.105.30,205.147.105.78,2403:2500:8000:1::5fb,2403:2500:8000:1::e9a,2403:2500:8000:1::ef6",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 20 hkg / Hong Kong, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "103.6.84.152,205.147.105.30,205.147.105.78,2403:2500:8000:1::5fb,2403:2500:8000:1::e9a,2403:2500:8000:1::ef6",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 20 hkg / Hong Kong, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "103.6.84.152,205.147.105.30,205.147.105.78,2403:2500:8000:1::5fb,2403:2500:8000:1::e9a,2403:2500:8000:1::ef6",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 20 hkg / Hong Kong, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "103.6.84.152,205.147.105.30,205.147.105.78,2403:2500:8000:1::5fb,2403:2500:8000:1::e9a,2403:2500:8000:1::ef6",
       "notes": "DERP over port 443: region 20 hkg / Hong Kong, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "103.6.84.152,205.147.105.30,205.147.105.78,2403:2500:8000:1::5fb,2403:2500:8000:1::e9a,2403:2500:8000:1::ef6",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 20 hkg / Hong Kong, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "103.6.84.152,205.147.105.30,205.147.105.78,2403:2500:8000:1::5fb,2403:2500:8000:1::e9a,2403:2500:8000:1::ef6",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 20 hkg / Hong Kong, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "103.6.84.152,205.147.105.30,205.147.105.78,2403:2500:8000:1::5fb,2403:2500:8000:1::e9a,2403:2500:8000:1::ef6",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 20 hkg / Hong Kong, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "103.6.84.152,205.147.105.30,205.147.105.78,2403:2500:8000:1::5fb,2403:2500:8000:1::e9a,2403:2500:8000:1::ef6",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 20 hkg / Hong Kong, 6 address(es)"
     },
     {
       "action": "allow",
@@ -1081,6 +3441,46 @@
       "ports": "3478",
       "remote-addresses": "103.6.84.152,205.147.105.30,205.147.105.78,2403:2500:8000:1::5fb,2403:2500:8000:1::e9a,2403:2500:8000:1::ef6",
       "notes": "STUN: region 20 hkg / Hong Kong, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "103.6.84.152,205.147.105.30,205.147.105.78,2403:2500:8000:1::5fb,2403:2500:8000:1::e9a,2403:2500:8000:1::ef6",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 20 hkg / Hong Kong, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "103.6.84.152,205.147.105.30,205.147.105.78,2403:2500:8000:1::5fb,2403:2500:8000:1::e9a,2403:2500:8000:1::ef6",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 20 hkg / Hong Kong, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "103.6.84.152,205.147.105.30,205.147.105.78,2403:2500:8000:1::5fb,2403:2500:8000:1::e9a,2403:2500:8000:1::ef6",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 20 hkg / Hong Kong, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "103.6.84.152,205.147.105.30,205.147.105.78,2403:2500:8000:1::5fb,2403:2500:8000:1::e9a,2403:2500:8000:1::ef6",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 20 hkg / Hong Kong, 6 address(es)"
     },
     {
       "action": "allow",
@@ -1094,11 +3494,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "162.248.221.199,162.248.221.215,162.248.221.248,2607:f740:50::1d1,2607:f740:50::ca4,2607:f740:50::f10",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 21 tor / Toronto, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "162.248.221.199,162.248.221.215,162.248.221.248,2607:f740:50::1d1,2607:f740:50::ca4,2607:f740:50::f10",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 21 tor / Toronto, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "162.248.221.199,162.248.221.215,162.248.221.248,2607:f740:50::1d1,2607:f740:50::ca4,2607:f740:50::f10",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 21 tor / Toronto, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "162.248.221.199,162.248.221.215,162.248.221.248,2607:f740:50::1d1,2607:f740:50::ca4,2607:f740:50::f10",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 21 tor / Toronto, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "162.248.221.199,162.248.221.215,162.248.221.248,2607:f740:50::1d1,2607:f740:50::ca4,2607:f740:50::f10",
       "notes": "DERP over port 443: region 21 tor / Toronto, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "162.248.221.199,162.248.221.215,162.248.221.248,2607:f740:50::1d1,2607:f740:50::ca4,2607:f740:50::f10",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 21 tor / Toronto, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "162.248.221.199,162.248.221.215,162.248.221.248,2607:f740:50::1d1,2607:f740:50::ca4,2607:f740:50::f10",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 21 tor / Toronto, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "162.248.221.199,162.248.221.215,162.248.221.248,2607:f740:50::1d1,2607:f740:50::ca4,2607:f740:50::f10",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 21 tor / Toronto, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "162.248.221.199,162.248.221.215,162.248.221.248,2607:f740:50::1d1,2607:f740:50::ca4,2607:f740:50::f10",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 21 tor / Toronto, 6 address(es)"
     },
     {
       "action": "allow",
@@ -1135,6 +3615,46 @@
       "ports": "3478",
       "remote-addresses": "162.248.221.199,162.248.221.215,162.248.221.248,2607:f740:50::1d1,2607:f740:50::ca4,2607:f740:50::f10",
       "notes": "STUN: region 21 tor / Toronto, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "162.248.221.199,162.248.221.215,162.248.221.248,2607:f740:50::1d1,2607:f740:50::ca4,2607:f740:50::f10",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 21 tor / Toronto, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "162.248.221.199,162.248.221.215,162.248.221.248,2607:f740:50::1d1,2607:f740:50::ca4,2607:f740:50::f10",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 21 tor / Toronto, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "162.248.221.199,162.248.221.215,162.248.221.248,2607:f740:50::1d1,2607:f740:50::ca4,2607:f740:50::f10",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 21 tor / Toronto, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "162.248.221.199,162.248.221.215,162.248.221.248,2607:f740:50::1d1,2607:f740:50::ca4,2607:f740:50::f10",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 21 tor / Toronto, 6 address(es)"
     },
     {
       "action": "allow",
@@ -1148,11 +3668,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "2a00:dd80:40:100::211,2a00:dd80:40:100::316,2a00:dd80:40:100::3f,45.159.98.145,45.159.98.196,45.159.98.253",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 22 waw / Warsaw, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "2a00:dd80:40:100::211,2a00:dd80:40:100::316,2a00:dd80:40:100::3f,45.159.98.145,45.159.98.196,45.159.98.253",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 22 waw / Warsaw, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "2a00:dd80:40:100::211,2a00:dd80:40:100::316,2a00:dd80:40:100::3f,45.159.98.145,45.159.98.196,45.159.98.253",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 22 waw / Warsaw, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "2a00:dd80:40:100::211,2a00:dd80:40:100::316,2a00:dd80:40:100::3f,45.159.98.145,45.159.98.196,45.159.98.253",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 22 waw / Warsaw, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "2a00:dd80:40:100::211,2a00:dd80:40:100::316,2a00:dd80:40:100::3f,45.159.98.145,45.159.98.196,45.159.98.253",
       "notes": "DERP over port 443: region 22 waw / Warsaw, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "2a00:dd80:40:100::211,2a00:dd80:40:100::316,2a00:dd80:40:100::3f,45.159.98.145,45.159.98.196,45.159.98.253",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 22 waw / Warsaw, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "2a00:dd80:40:100::211,2a00:dd80:40:100::316,2a00:dd80:40:100::3f,45.159.98.145,45.159.98.196,45.159.98.253",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 22 waw / Warsaw, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "2a00:dd80:40:100::211,2a00:dd80:40:100::316,2a00:dd80:40:100::3f,45.159.98.145,45.159.98.196,45.159.98.253",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 22 waw / Warsaw, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "2a00:dd80:40:100::211,2a00:dd80:40:100::316,2a00:dd80:40:100::3f,45.159.98.145,45.159.98.196,45.159.98.253",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 22 waw / Warsaw, 6 address(es)"
     },
     {
       "action": "allow",
@@ -1189,6 +3789,46 @@
       "ports": "3478",
       "remote-addresses": "2a00:dd80:40:100::211,2a00:dd80:40:100::316,2a00:dd80:40:100::3f,45.159.98.145,45.159.98.196,45.159.98.253",
       "notes": "STUN: region 22 waw / Warsaw, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "2a00:dd80:40:100::211,2a00:dd80:40:100::316,2a00:dd80:40:100::3f,45.159.98.145,45.159.98.196,45.159.98.253",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 22 waw / Warsaw, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "2a00:dd80:40:100::211,2a00:dd80:40:100::316,2a00:dd80:40:100::3f,45.159.98.145,45.159.98.196,45.159.98.253",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 22 waw / Warsaw, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "2a00:dd80:40:100::211,2a00:dd80:40:100::316,2a00:dd80:40:100::3f,45.159.98.145,45.159.98.196,45.159.98.253",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 22 waw / Warsaw, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "2a00:dd80:40:100::211,2a00:dd80:40:100::316,2a00:dd80:40:100::3f,45.159.98.145,45.159.98.196,45.159.98.253",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 22 waw / Warsaw, 6 address(es)"
     },
     {
       "action": "allow",
@@ -1202,11 +3842,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "185.34.3.207,185.34.3.232,185.34.3.75,2a00:dd80:3f:100::76f,2a00:dd80:3f:100::97e,2a00:dd80:3f:100::a50",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 23 dbi / Dubai, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "185.34.3.207,185.34.3.232,185.34.3.75,2a00:dd80:3f:100::76f,2a00:dd80:3f:100::97e,2a00:dd80:3f:100::a50",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 23 dbi / Dubai, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "185.34.3.207,185.34.3.232,185.34.3.75,2a00:dd80:3f:100::76f,2a00:dd80:3f:100::97e,2a00:dd80:3f:100::a50",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 23 dbi / Dubai, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "185.34.3.207,185.34.3.232,185.34.3.75,2a00:dd80:3f:100::76f,2a00:dd80:3f:100::97e,2a00:dd80:3f:100::a50",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 23 dbi / Dubai, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "185.34.3.207,185.34.3.232,185.34.3.75,2a00:dd80:3f:100::76f,2a00:dd80:3f:100::97e,2a00:dd80:3f:100::a50",
       "notes": "DERP over port 443: region 23 dbi / Dubai, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "185.34.3.207,185.34.3.232,185.34.3.75,2a00:dd80:3f:100::76f,2a00:dd80:3f:100::97e,2a00:dd80:3f:100::a50",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 23 dbi / Dubai, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "185.34.3.207,185.34.3.232,185.34.3.75,2a00:dd80:3f:100::76f,2a00:dd80:3f:100::97e,2a00:dd80:3f:100::a50",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 23 dbi / Dubai, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "185.34.3.207,185.34.3.232,185.34.3.75,2a00:dd80:3f:100::76f,2a00:dd80:3f:100::97e,2a00:dd80:3f:100::a50",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 23 dbi / Dubai, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "185.34.3.207,185.34.3.232,185.34.3.75,2a00:dd80:3f:100::76f,2a00:dd80:3f:100::97e,2a00:dd80:3f:100::a50",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 23 dbi / Dubai, 6 address(es)"
     },
     {
       "action": "allow",
@@ -1243,6 +3963,46 @@
       "ports": "3478",
       "remote-addresses": "185.34.3.207,185.34.3.232,185.34.3.75,2a00:dd80:3f:100::76f,2a00:dd80:3f:100::97e,2a00:dd80:3f:100::a50",
       "notes": "STUN: region 23 dbi / Dubai, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "185.34.3.207,185.34.3.232,185.34.3.75,2a00:dd80:3f:100::76f,2a00:dd80:3f:100::97e,2a00:dd80:3f:100::a50",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 23 dbi / Dubai, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "185.34.3.207,185.34.3.232,185.34.3.75,2a00:dd80:3f:100::76f,2a00:dd80:3f:100::97e,2a00:dd80:3f:100::a50",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 23 dbi / Dubai, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "185.34.3.207,185.34.3.232,185.34.3.75,2a00:dd80:3f:100::76f,2a00:dd80:3f:100::97e,2a00:dd80:3f:100::a50",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 23 dbi / Dubai, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "185.34.3.207,185.34.3.232,185.34.3.75,2a00:dd80:3f:100::76f,2a00:dd80:3f:100::97e,2a00:dd80:3f:100::a50",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 23 dbi / Dubai, 6 address(es)"
     },
     {
       "action": "allow",
@@ -1256,11 +4016,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "2001:19f0:c000:c564:5400:04ff:fe26:2ba8,2001:19f0:c000:c586:5400:04ff:fe26:2ba6,2001:19f0:c000:c591:5400:04ff:fe26:2c5f,208.72.155.133,208.83.233.233,208.83.234.151",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 24 hnl / Honolulu, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "2001:19f0:c000:c564:5400:04ff:fe26:2ba8,2001:19f0:c000:c586:5400:04ff:fe26:2ba6,2001:19f0:c000:c591:5400:04ff:fe26:2c5f,208.72.155.133,208.83.233.233,208.83.234.151",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 24 hnl / Honolulu, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "2001:19f0:c000:c564:5400:04ff:fe26:2ba8,2001:19f0:c000:c586:5400:04ff:fe26:2ba6,2001:19f0:c000:c591:5400:04ff:fe26:2c5f,208.72.155.133,208.83.233.233,208.83.234.151",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 24 hnl / Honolulu, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "2001:19f0:c000:c564:5400:04ff:fe26:2ba8,2001:19f0:c000:c586:5400:04ff:fe26:2ba6,2001:19f0:c000:c591:5400:04ff:fe26:2c5f,208.72.155.133,208.83.233.233,208.83.234.151",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 24 hnl / Honolulu, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "2001:19f0:c000:c564:5400:04ff:fe26:2ba8,2001:19f0:c000:c586:5400:04ff:fe26:2ba6,2001:19f0:c000:c591:5400:04ff:fe26:2c5f,208.72.155.133,208.83.233.233,208.83.234.151",
       "notes": "DERP over port 443: region 24 hnl / Honolulu, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "2001:19f0:c000:c564:5400:04ff:fe26:2ba8,2001:19f0:c000:c586:5400:04ff:fe26:2ba6,2001:19f0:c000:c591:5400:04ff:fe26:2c5f,208.72.155.133,208.83.233.233,208.83.234.151",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 24 hnl / Honolulu, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "2001:19f0:c000:c564:5400:04ff:fe26:2ba8,2001:19f0:c000:c586:5400:04ff:fe26:2ba6,2001:19f0:c000:c591:5400:04ff:fe26:2c5f,208.72.155.133,208.83.233.233,208.83.234.151",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 24 hnl / Honolulu, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "2001:19f0:c000:c564:5400:04ff:fe26:2ba8,2001:19f0:c000:c586:5400:04ff:fe26:2ba6,2001:19f0:c000:c591:5400:04ff:fe26:2c5f,208.72.155.133,208.83.233.233,208.83.234.151",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 24 hnl / Honolulu, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "2001:19f0:c000:c564:5400:04ff:fe26:2ba8,2001:19f0:c000:c586:5400:04ff:fe26:2ba6,2001:19f0:c000:c591:5400:04ff:fe26:2c5f,208.72.155.133,208.83.233.233,208.83.234.151",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 24 hnl / Honolulu, 6 address(es)"
     },
     {
       "action": "allow",
@@ -1297,6 +4137,46 @@
       "ports": "3478",
       "remote-addresses": "2001:19f0:c000:c564:5400:04ff:fe26:2ba8,2001:19f0:c000:c586:5400:04ff:fe26:2ba6,2001:19f0:c000:c591:5400:04ff:fe26:2c5f,208.72.155.133,208.83.233.233,208.83.234.151",
       "notes": "STUN: region 24 hnl / Honolulu, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "2001:19f0:c000:c564:5400:04ff:fe26:2ba8,2001:19f0:c000:c586:5400:04ff:fe26:2ba6,2001:19f0:c000:c591:5400:04ff:fe26:2c5f,208.72.155.133,208.83.233.233,208.83.234.151",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 24 hnl / Honolulu, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "2001:19f0:c000:c564:5400:04ff:fe26:2ba8,2001:19f0:c000:c586:5400:04ff:fe26:2ba6,2001:19f0:c000:c591:5400:04ff:fe26:2c5f,208.72.155.133,208.83.233.233,208.83.234.151",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 24 hnl / Honolulu, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "2001:19f0:c000:c564:5400:04ff:fe26:2ba8,2001:19f0:c000:c586:5400:04ff:fe26:2ba6,2001:19f0:c000:c591:5400:04ff:fe26:2c5f,208.72.155.133,208.83.233.233,208.83.234.151",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 24 hnl / Honolulu, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "2001:19f0:c000:c564:5400:04ff:fe26:2ba8,2001:19f0:c000:c586:5400:04ff:fe26:2ba6,2001:19f0:c000:c591:5400:04ff:fe26:2c5f,208.72.155.133,208.83.233.233,208.83.234.151",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 24 hnl / Honolulu, 6 address(es)"
     },
     {
       "action": "allow",
@@ -1310,11 +4190,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "102.67.167.188,102.67.167.245,102.67.167.37,2c0f:edb0:2000:1::188,2c0f:edb0:2000:1::2c7,2c0f:edb0:2000:1::2e9",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 25 nai / Nairobi, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "102.67.167.188,102.67.167.245,102.67.167.37,2c0f:edb0:2000:1::188,2c0f:edb0:2000:1::2c7,2c0f:edb0:2000:1::2e9",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 25 nai / Nairobi, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "102.67.167.188,102.67.167.245,102.67.167.37,2c0f:edb0:2000:1::188,2c0f:edb0:2000:1::2c7,2c0f:edb0:2000:1::2e9",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 25 nai / Nairobi, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "102.67.167.188,102.67.167.245,102.67.167.37,2c0f:edb0:2000:1::188,2c0f:edb0:2000:1::2c7,2c0f:edb0:2000:1::2e9",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 25 nai / Nairobi, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "102.67.167.188,102.67.167.245,102.67.167.37,2c0f:edb0:2000:1::188,2c0f:edb0:2000:1::2c7,2c0f:edb0:2000:1::2e9",
       "notes": "DERP over port 443: region 25 nai / Nairobi, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "102.67.167.188,102.67.167.245,102.67.167.37,2c0f:edb0:2000:1::188,2c0f:edb0:2000:1::2c7,2c0f:edb0:2000:1::2e9",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 25 nai / Nairobi, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "102.67.167.188,102.67.167.245,102.67.167.37,2c0f:edb0:2000:1::188,2c0f:edb0:2000:1::2c7,2c0f:edb0:2000:1::2e9",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 25 nai / Nairobi, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "102.67.167.188,102.67.167.245,102.67.167.37,2c0f:edb0:2000:1::188,2c0f:edb0:2000:1::2c7,2c0f:edb0:2000:1::2e9",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 25 nai / Nairobi, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "102.67.167.188,102.67.167.245,102.67.167.37,2c0f:edb0:2000:1::188,2c0f:edb0:2000:1::2c7,2c0f:edb0:2000:1::2e9",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 25 nai / Nairobi, 6 address(es)"
     },
     {
       "action": "allow",
@@ -1351,6 +4311,46 @@
       "ports": "3478",
       "remote-addresses": "102.67.167.188,102.67.167.245,102.67.167.37,2c0f:edb0:2000:1::188,2c0f:edb0:2000:1::2c7,2c0f:edb0:2000:1::2e9",
       "notes": "STUN: region 25 nai / Nairobi, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "102.67.167.188,102.67.167.245,102.67.167.37,2c0f:edb0:2000:1::188,2c0f:edb0:2000:1::2c7,2c0f:edb0:2000:1::2e9",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 25 nai / Nairobi, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "102.67.167.188,102.67.167.245,102.67.167.37,2c0f:edb0:2000:1::188,2c0f:edb0:2000:1::2c7,2c0f:edb0:2000:1::2e9",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 25 nai / Nairobi, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "102.67.167.188,102.67.167.245,102.67.167.37,2c0f:edb0:2000:1::188,2c0f:edb0:2000:1::2c7,2c0f:edb0:2000:1::2e9",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 25 nai / Nairobi, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "102.67.167.188,102.67.167.245,102.67.167.37,2c0f:edb0:2000:1::188,2c0f:edb0:2000:1::2c7,2c0f:edb0:2000:1::2e9",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 25 nai / Nairobi, 6 address(es)"
     },
     {
       "action": "allow",
@@ -1364,11 +4364,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "167.235.72.200,2a01:4f8:1c0c:7d06::1,2a01:4f8:1c1c:47b6::1,2a01:4f8:1c1c:5c70::1,49.12.193.137,49.13.204.141",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 26 nue / Nuremberg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "167.235.72.200,2a01:4f8:1c0c:7d06::1,2a01:4f8:1c1c:47b6::1,2a01:4f8:1c1c:5c70::1,49.12.193.137,49.13.204.141",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 26 nue / Nuremberg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "167.235.72.200,2a01:4f8:1c0c:7d06::1,2a01:4f8:1c1c:47b6::1,2a01:4f8:1c1c:5c70::1,49.12.193.137,49.13.204.141",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 26 nue / Nuremberg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "167.235.72.200,2a01:4f8:1c0c:7d06::1,2a01:4f8:1c1c:47b6::1,2a01:4f8:1c1c:5c70::1,49.12.193.137,49.13.204.141",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 26 nue / Nuremberg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "167.235.72.200,2a01:4f8:1c0c:7d06::1,2a01:4f8:1c1c:47b6::1,2a01:4f8:1c1c:5c70::1,49.12.193.137,49.13.204.141",
       "notes": "DERP over port 443: region 26 nue / Nuremberg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "167.235.72.200,2a01:4f8:1c0c:7d06::1,2a01:4f8:1c1c:47b6::1,2a01:4f8:1c1c:5c70::1,49.12.193.137,49.13.204.141",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 26 nue / Nuremberg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "167.235.72.200,2a01:4f8:1c0c:7d06::1,2a01:4f8:1c1c:47b6::1,2a01:4f8:1c1c:5c70::1,49.12.193.137,49.13.204.141",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 26 nue / Nuremberg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "167.235.72.200,2a01:4f8:1c0c:7d06::1,2a01:4f8:1c1c:47b6::1,2a01:4f8:1c1c:5c70::1,49.12.193.137,49.13.204.141",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 26 nue / Nuremberg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "167.235.72.200,2a01:4f8:1c0c:7d06::1,2a01:4f8:1c1c:47b6::1,2a01:4f8:1c1c:5c70::1,49.12.193.137,49.13.204.141",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 26 nue / Nuremberg, 6 address(es)"
     },
     {
       "action": "allow",
@@ -1405,6 +4485,46 @@
       "ports": "3478",
       "remote-addresses": "167.235.72.200,2a01:4f8:1c0c:7d06::1,2a01:4f8:1c1c:47b6::1,2a01:4f8:1c1c:5c70::1,49.12.193.137,49.13.204.141",
       "notes": "STUN: region 26 nue / Nuremberg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "167.235.72.200,2a01:4f8:1c0c:7d06::1,2a01:4f8:1c1c:47b6::1,2a01:4f8:1c1c:5c70::1,49.12.193.137,49.13.204.141",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 26 nue / Nuremberg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "167.235.72.200,2a01:4f8:1c0c:7d06::1,2a01:4f8:1c1c:47b6::1,2a01:4f8:1c1c:5c70::1,49.12.193.137,49.13.204.141",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 26 nue / Nuremberg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "167.235.72.200,2a01:4f8:1c0c:7d06::1,2a01:4f8:1c1c:47b6::1,2a01:4f8:1c1c:5c70::1,49.12.193.137,49.13.204.141",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 26 nue / Nuremberg, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "167.235.72.200,2a01:4f8:1c0c:7d06::1,2a01:4f8:1c1c:47b6::1,2a01:4f8:1c1c:5c70::1,49.12.193.137,49.13.204.141",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 26 nue / Nuremberg, 6 address(es)"
     },
     {
       "action": "allow",
@@ -1418,11 +4538,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "178.156.134.232,178.156.152.106,178.156.152.91,2a01:4ff:f0:28d4::1,2a01:4ff:f0:3913::1,2a01:4ff:f0:3c8e::1,2a01:4ff:f0:3db9::1,5.161.218.233",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 27 iad / Ashburn, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "178.156.134.232,178.156.152.106,178.156.152.91,2a01:4ff:f0:28d4::1,2a01:4ff:f0:3913::1,2a01:4ff:f0:3c8e::1,2a01:4ff:f0:3db9::1,5.161.218.233",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 27 iad / Ashburn, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "178.156.134.232,178.156.152.106,178.156.152.91,2a01:4ff:f0:28d4::1,2a01:4ff:f0:3913::1,2a01:4ff:f0:3c8e::1,2a01:4ff:f0:3db9::1,5.161.218.233",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 27 iad / Ashburn, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "178.156.134.232,178.156.152.106,178.156.152.91,2a01:4ff:f0:28d4::1,2a01:4ff:f0:3913::1,2a01:4ff:f0:3c8e::1,2a01:4ff:f0:3db9::1,5.161.218.233",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 27 iad / Ashburn, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "178.156.134.232,178.156.152.106,178.156.152.91,2a01:4ff:f0:28d4::1,2a01:4ff:f0:3913::1,2a01:4ff:f0:3c8e::1,2a01:4ff:f0:3db9::1,5.161.218.233",
       "notes": "DERP over port 443: region 27 iad / Ashburn, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "178.156.134.232,178.156.152.106,178.156.152.91,2a01:4ff:f0:28d4::1,2a01:4ff:f0:3913::1,2a01:4ff:f0:3c8e::1,2a01:4ff:f0:3db9::1,5.161.218.233",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 27 iad / Ashburn, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "178.156.134.232,178.156.152.106,178.156.152.91,2a01:4ff:f0:28d4::1,2a01:4ff:f0:3913::1,2a01:4ff:f0:3c8e::1,2a01:4ff:f0:3db9::1,5.161.218.233",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 27 iad / Ashburn, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "178.156.134.232,178.156.152.106,178.156.152.91,2a01:4ff:f0:28d4::1,2a01:4ff:f0:3913::1,2a01:4ff:f0:3c8e::1,2a01:4ff:f0:3db9::1,5.161.218.233",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 27 iad / Ashburn, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "178.156.134.232,178.156.152.106,178.156.152.91,2a01:4ff:f0:28d4::1,2a01:4ff:f0:3913::1,2a01:4ff:f0:3c8e::1,2a01:4ff:f0:3db9::1,5.161.218.233",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 27 iad / Ashburn, 8 address(es)"
     },
     {
       "action": "allow",
@@ -1459,6 +4659,46 @@
       "ports": "3478",
       "remote-addresses": "178.156.134.232,178.156.152.106,178.156.152.91,2a01:4ff:f0:28d4::1,2a01:4ff:f0:3913::1,2a01:4ff:f0:3c8e::1,2a01:4ff:f0:3db9::1,5.161.218.233",
       "notes": "STUN: region 27 iad / Ashburn, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "178.156.134.232,178.156.152.106,178.156.152.91,2a01:4ff:f0:28d4::1,2a01:4ff:f0:3913::1,2a01:4ff:f0:3c8e::1,2a01:4ff:f0:3db9::1,5.161.218.233",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 27 iad / Ashburn, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "178.156.134.232,178.156.152.106,178.156.152.91,2a01:4ff:f0:28d4::1,2a01:4ff:f0:3913::1,2a01:4ff:f0:3c8e::1,2a01:4ff:f0:3db9::1,5.161.218.233",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 27 iad / Ashburn, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "178.156.134.232,178.156.152.106,178.156.152.91,2a01:4ff:f0:28d4::1,2a01:4ff:f0:3913::1,2a01:4ff:f0:3c8e::1,2a01:4ff:f0:3db9::1,5.161.218.233",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 27 iad / Ashburn, 8 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "178.156.134.232,178.156.152.106,178.156.152.91,2a01:4ff:f0:28d4::1,2a01:4ff:f0:3913::1,2a01:4ff:f0:3c8e::1,2a01:4ff:f0:3db9::1,5.161.218.233",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 27 iad / Ashburn, 8 address(es)"
     },
     {
       "action": "allow",
@@ -1472,11 +4712,91 @@
     {
       "action": "allow",
       "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 28 hel / Helsinki, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 28 hel / Helsinki, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 28 hel / Helsinki, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "80",
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
+      "notes": "DERP over port 80, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 28 hel / Helsinki, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
       "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
       "notes": "DERP over port 443: region 28 hel / Helsinki, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 28 hel / Helsinki, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 28 hel / Helsinki, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 28 hel / Helsinki, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "tcp",
+      "ports": "443",
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
+      "notes": "DERP over port 443, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 28 hel / Helsinki, 6 address(es)"
     },
     {
       "action": "allow",
@@ -1513,6 +4833,46 @@
       "ports": "3478",
       "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
       "notes": "STUN: region 28 hel / Helsinki, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension: region 28 hel / Helsinki, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macos",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macos: region 28 hel / Helsinki, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension: region 28 hel / Helsinki, 6 address(es)"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "via": "identifier.W5364U7YZB/io.tailscale.ipn.macsys",
+      "direction": "outgoing",
+      "protocol": "udp",
+      "ports": "3478",
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
+      "notes": "STUN, any process via identifier.W5364U7YZB/io.tailscale.ipn.macsys: region 28 hel / Helsinki, 6 address(es)"
     }
   ]
 }
