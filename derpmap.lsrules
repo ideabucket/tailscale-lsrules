@@ -4706,8 +4706,8 @@
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "80",
-      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
-      "notes": "DERP over port 80: region 28 hel / Helsinki, 6 address(es)"
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,2a01:4f9:c014:f18e::1,46.62.141.44,65.109.143.62,95.217.2.165",
+      "notes": "DERP over port 80: region 28 hel / Helsinki, 8 address(es)"
     },
     {
       "action": "allow",
@@ -4716,8 +4716,8 @@
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "80",
-      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
-      "notes": "DERP over port 80: region 28 hel / Helsinki, 6 address(es)"
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,2a01:4f9:c014:f18e::1,46.62.141.44,65.109.143.62,95.217.2.165",
+      "notes": "DERP over port 80: region 28 hel / Helsinki, 8 address(es)"
     },
     {
       "action": "allow",
@@ -4726,8 +4726,8 @@
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "80",
-      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
-      "notes": "DERP over port 80: region 28 hel / Helsinki, 6 address(es)"
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,2a01:4f9:c014:f18e::1,46.62.141.44,65.109.143.62,95.217.2.165",
+      "notes": "DERP over port 80: region 28 hel / Helsinki, 8 address(es)"
     },
     {
       "action": "allow",
@@ -4736,8 +4736,8 @@
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "80",
-      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
-      "notes": "DERP over port 80: region 28 hel / Helsinki, 6 address(es)"
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,2a01:4f9:c014:f18e::1,46.62.141.44,65.109.143.62,95.217.2.165",
+      "notes": "DERP over port 80: region 28 hel / Helsinki, 8 address(es)"
     },
     {
       "action": "allow",
@@ -4746,8 +4746,8 @@
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "80",
-      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
-      "notes": "DERP over port 80: region 28 hel / Helsinki, 6 address(es)"
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,2a01:4f9:c014:f18e::1,46.62.141.44,65.109.143.62,95.217.2.165",
+      "notes": "DERP over port 80: region 28 hel / Helsinki, 8 address(es)"
     },
     {
       "action": "allow",
@@ -4755,8 +4755,8 @@
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
-      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
-      "notes": "DERP over port 443: region 28 hel / Helsinki, 6 address(es)"
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,2a01:4f9:c014:f18e::1,46.62.141.44,65.109.143.62,95.217.2.165",
+      "notes": "DERP over port 443: region 28 hel / Helsinki, 8 address(es)"
     },
     {
       "action": "allow",
@@ -4765,8 +4765,8 @@
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
-      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
-      "notes": "DERP over port 443: region 28 hel / Helsinki, 6 address(es)"
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,2a01:4f9:c014:f18e::1,46.62.141.44,65.109.143.62,95.217.2.165",
+      "notes": "DERP over port 443: region 28 hel / Helsinki, 8 address(es)"
     },
     {
       "action": "allow",
@@ -4775,8 +4775,8 @@
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
-      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
-      "notes": "DERP over port 443: region 28 hel / Helsinki, 6 address(es)"
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,2a01:4f9:c014:f18e::1,46.62.141.44,65.109.143.62,95.217.2.165",
+      "notes": "DERP over port 443: region 28 hel / Helsinki, 8 address(es)"
     },
     {
       "action": "allow",
@@ -4785,8 +4785,8 @@
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
-      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
-      "notes": "DERP over port 443: region 28 hel / Helsinki, 6 address(es)"
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,2a01:4f9:c014:f18e::1,46.62.141.44,65.109.143.62,95.217.2.165",
+      "notes": "DERP over port 443: region 28 hel / Helsinki, 8 address(es)"
     },
     {
       "action": "allow",
@@ -4795,8 +4795,8 @@
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
-      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
-      "notes": "DERP over port 443: region 28 hel / Helsinki, 6 address(es)"
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,2a01:4f9:c014:f18e::1,46.62.141.44,65.109.143.62,95.217.2.165",
+      "notes": "DERP over port 443: region 28 hel / Helsinki, 8 address(es)"
     },
     {
       "action": "allow",
@@ -4804,8 +4804,8 @@
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
-      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
-      "notes": "STUN: region 28 hel / Helsinki, 6 address(es)"
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,2a01:4f9:c014:f18e::1,46.62.141.44,65.109.143.62,95.217.2.165",
+      "notes": "STUN: region 28 hel / Helsinki, 8 address(es)"
     },
     {
       "action": "allow",
@@ -4813,8 +4813,8 @@
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
-      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
-      "notes": "STUN: region 28 hel / Helsinki, 6 address(es)"
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,2a01:4f9:c014:f18e::1,46.62.141.44,65.109.143.62,95.217.2.165",
+      "notes": "STUN: region 28 hel / Helsinki, 8 address(es)"
     },
     {
       "action": "allow",
@@ -4822,8 +4822,8 @@
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
-      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
-      "notes": "STUN: region 28 hel / Helsinki, 6 address(es)"
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,2a01:4f9:c014:f18e::1,46.62.141.44,65.109.143.62,95.217.2.165",
+      "notes": "STUN: region 28 hel / Helsinki, 8 address(es)"
     },
     {
       "action": "allow",
@@ -4831,8 +4831,8 @@
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
-      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
-      "notes": "STUN: region 28 hel / Helsinki, 6 address(es)"
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,2a01:4f9:c014:f18e::1,46.62.141.44,65.109.143.62,95.217.2.165",
+      "notes": "STUN: region 28 hel / Helsinki, 8 address(es)"
     },
     {
       "action": "allow",
@@ -4841,8 +4841,8 @@
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
-      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
-      "notes": "STUN: region 28 hel / Helsinki, 6 address(es)"
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,2a01:4f9:c014:f18e::1,46.62.141.44,65.109.143.62,95.217.2.165",
+      "notes": "STUN: region 28 hel / Helsinki, 8 address(es)"
     },
     {
       "action": "allow",
@@ -4851,8 +4851,8 @@
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
-      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
-      "notes": "STUN: region 28 hel / Helsinki, 6 address(es)"
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,2a01:4f9:c014:f18e::1,46.62.141.44,65.109.143.62,95.217.2.165",
+      "notes": "STUN: region 28 hel / Helsinki, 8 address(es)"
     },
     {
       "action": "allow",
@@ -4861,8 +4861,8 @@
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
-      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
-      "notes": "STUN: region 28 hel / Helsinki, 6 address(es)"
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,2a01:4f9:c014:f18e::1,46.62.141.44,65.109.143.62,95.217.2.165",
+      "notes": "STUN: region 28 hel / Helsinki, 8 address(es)"
     },
     {
       "action": "allow",
@@ -4871,8 +4871,8 @@
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
-      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,65.109.143.62,95.217.2.165",
-      "notes": "STUN: region 28 hel / Helsinki, 6 address(es)"
+      "remote-addresses": "157.180.28.32,2a01:4f9:c012:2e5b::1,2a01:4f9:c012:cd74::1,2a01:4f9:c012:d55c::1,2a01:4f9:c014:f18e::1,46.62.141.44,65.109.143.62,95.217.2.165",
+      "notes": "STUN: region 28 hel / Helsinki, 8 address(es)"
     }
   ]
 }
