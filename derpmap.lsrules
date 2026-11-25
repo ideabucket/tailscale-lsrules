@@ -2270,8 +2270,8 @@
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "80",
-      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
-      "notes": "DERP over port 80: region 14 ams / Amsterdam, 6 address(es)"
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,176.58.93.27,2a00:dd80:3c::343,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "DERP over port 80: region 14 ams / Amsterdam, 8 address(es)"
     },
     {
       "action": "allow",
@@ -2280,8 +2280,8 @@
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "80",
-      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
-      "notes": "DERP over port 80: region 14 ams / Amsterdam, 6 address(es)"
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,176.58.93.27,2a00:dd80:3c::343,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "DERP over port 80: region 14 ams / Amsterdam, 8 address(es)"
     },
     {
       "action": "allow",
@@ -2290,8 +2290,8 @@
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "80",
-      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
-      "notes": "DERP over port 80: region 14 ams / Amsterdam, 6 address(es)"
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,176.58.93.27,2a00:dd80:3c::343,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "DERP over port 80: region 14 ams / Amsterdam, 8 address(es)"
     },
     {
       "action": "allow",
@@ -2300,8 +2300,8 @@
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "80",
-      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
-      "notes": "DERP over port 80: region 14 ams / Amsterdam, 6 address(es)"
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,176.58.93.27,2a00:dd80:3c::343,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "DERP over port 80: region 14 ams / Amsterdam, 8 address(es)"
     },
     {
       "action": "allow",
@@ -2310,8 +2310,8 @@
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "80",
-      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
-      "notes": "DERP over port 80: region 14 ams / Amsterdam, 6 address(es)"
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,176.58.93.27,2a00:dd80:3c::343,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "DERP over port 80: region 14 ams / Amsterdam, 8 address(es)"
     },
     {
       "action": "allow",
@@ -2319,8 +2319,8 @@
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
-      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
-      "notes": "DERP over port 443: region 14 ams / Amsterdam, 6 address(es)"
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,176.58.93.27,2a00:dd80:3c::343,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "DERP over port 443: region 14 ams / Amsterdam, 8 address(es)"
     },
     {
       "action": "allow",
@@ -2329,8 +2329,8 @@
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
-      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
-      "notes": "DERP over port 443: region 14 ams / Amsterdam, 6 address(es)"
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,176.58.93.27,2a00:dd80:3c::343,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "DERP over port 443: region 14 ams / Amsterdam, 8 address(es)"
     },
     {
       "action": "allow",
@@ -2339,8 +2339,8 @@
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
-      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
-      "notes": "DERP over port 443: region 14 ams / Amsterdam, 6 address(es)"
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,176.58.93.27,2a00:dd80:3c::343,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "DERP over port 443: region 14 ams / Amsterdam, 8 address(es)"
     },
     {
       "action": "allow",
@@ -2349,8 +2349,8 @@
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
-      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
-      "notes": "DERP over port 443: region 14 ams / Amsterdam, 6 address(es)"
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,176.58.93.27,2a00:dd80:3c::343,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "DERP over port 443: region 14 ams / Amsterdam, 8 address(es)"
     },
     {
       "action": "allow",
@@ -2359,8 +2359,8 @@
       "direction": "outgoing",
       "protocol": "tcp",
       "ports": "443",
-      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
-      "notes": "DERP over port 443: region 14 ams / Amsterdam, 6 address(es)"
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,176.58.93.27,2a00:dd80:3c::343,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "DERP over port 443: region 14 ams / Amsterdam, 8 address(es)"
     },
     {
       "action": "allow",
@@ -2368,8 +2368,8 @@
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
-      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
-      "notes": "STUN: region 14 ams / Amsterdam, 6 address(es)"
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,176.58.93.27,2a00:dd80:3c::343,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "STUN: region 14 ams / Amsterdam, 8 address(es)"
     },
     {
       "action": "allow",
@@ -2377,8 +2377,8 @@
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
-      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
-      "notes": "STUN: region 14 ams / Amsterdam, 6 address(es)"
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,176.58.93.27,2a00:dd80:3c::343,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "STUN: region 14 ams / Amsterdam, 8 address(es)"
     },
     {
       "action": "allow",
@@ -2386,8 +2386,8 @@
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
-      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
-      "notes": "STUN: region 14 ams / Amsterdam, 6 address(es)"
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,176.58.93.27,2a00:dd80:3c::343,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "STUN: region 14 ams / Amsterdam, 8 address(es)"
     },
     {
       "action": "allow",
@@ -2395,8 +2395,8 @@
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
-      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
-      "notes": "STUN: region 14 ams / Amsterdam, 6 address(es)"
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,176.58.93.27,2a00:dd80:3c::343,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "STUN: region 14 ams / Amsterdam, 8 address(es)"
     },
     {
       "action": "allow",
@@ -2405,8 +2405,8 @@
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
-      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
-      "notes": "STUN: region 14 ams / Amsterdam, 6 address(es)"
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,176.58.93.27,2a00:dd80:3c::343,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "STUN: region 14 ams / Amsterdam, 8 address(es)"
     },
     {
       "action": "allow",
@@ -2415,8 +2415,8 @@
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
-      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
-      "notes": "STUN: region 14 ams / Amsterdam, 6 address(es)"
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,176.58.93.27,2a00:dd80:3c::343,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "STUN: region 14 ams / Amsterdam, 8 address(es)"
     },
     {
       "action": "allow",
@@ -2425,8 +2425,8 @@
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
-      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
-      "notes": "STUN: region 14 ams / Amsterdam, 6 address(es)"
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,176.58.93.27,2a00:dd80:3c::343,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "STUN: region 14 ams / Amsterdam, 8 address(es)"
     },
     {
       "action": "allow",
@@ -2435,8 +2435,8 @@
       "direction": "outgoing",
       "protocol": "udp",
       "ports": "3478",
-      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
-      "notes": "STUN: region 14 ams / Amsterdam, 6 address(es)"
+      "remote-addresses": "176.58.93.147,176.58.93.154,176.58.93.248,176.58.93.27,2a00:dd80:3c::343,2a00:dd80:3c::3d5,2a00:dd80:3c::807,2a00:dd80:3c::b09",
+      "notes": "STUN: region 14 ams / Amsterdam, 8 address(es)"
     },
     {
       "action": "allow",
